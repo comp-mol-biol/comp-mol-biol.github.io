@@ -23,6 +23,7 @@ Reseach description
 ## Contact
 Lukas Stelzl <br/>
 Staudingerweg 9 <br/>
-Institute of Physics <br/>
-Johannes Gutenberg Universität Mainz, Institute of Molecular Biology <br/>
+Faculty of Biology and KOMET 1, Institute of Physics,<br/>
+Johannes Gutenberg University Mainz and<br/>
+Institute of Molecular Biology (IMB) <br/>
 Email: lstelzl@uni-mainz.de <br/>
