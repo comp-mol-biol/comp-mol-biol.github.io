@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Computational Molecular Biology"
 description              : &description "personal description"
 url                      : https://comp-mol-biol.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/comp-mol-biol" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "github.com/comp-mol-biol"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
