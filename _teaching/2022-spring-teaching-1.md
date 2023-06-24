@@ -1,11 +1,11 @@
 ---
-title: "Statistical Physics & Thermodynamics (Mentor)"
+title: "Statistical Physics & Thermodynamics"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2022-spring-teaching-1
-venue: "Freie Universität Berlin, Institute of Physics"
+venue: "Johannes Gutenberg Universität, Institute of Physics"
 date: 2022-04-01
-location: "Berlin, Germany"
+location: "Mainz, Germany"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.

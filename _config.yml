@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mahesh Yadav"
+title                    : "Computational Molecular Biology"
 title_separator          : "-"
-name                     : &name "Mahesh Yadav"
+name                     : &name "Computational Molecular Biology"
 description              : &description "personal description"
-url                      : https://mahesh27dx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/maheshyadav" # the subpath of your site, e.g. "/blog"
-repository               : "github.com/mahesh27dx"
+url                      : https://comp-mol-biol.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/comp-mol-biol" # the subpath of your site, e.g. "/blog"
+repository               : "github.com/comp-mol-biol"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -80,19 +80,19 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mahesh Yadav"
+  name             : "Computational Molecular Biology"
   avatar           : "profile_pic.png"
-  bio              : "COMPUTATIONAL STATISTICAL PHYSICS"
+  bio              : 
   location         : "Mainz, Germany"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "mahesh27dx@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Mahesh-Yadav-23"
-  github           : "mahesh27dx"
-  buymeacoffee     : "https://www.buymeacoffee.com/maheshyadav"
-  stackoverflow    : "https://stackoverflow.com/users/16829653/mahesh"
-  twitter          : "neg_friction"
+  email            : 
+  researchgate     : 
+  github           : "comp-mol-biol"
+  buymeacoffee     : 
+  stackoverflow    : 
+  twitter          : "l_stelzl"
   youtube          :
 
 # Reading Files
