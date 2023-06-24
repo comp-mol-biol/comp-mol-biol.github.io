@@ -1,8 +1,10 @@
 ---
 permalink: /
-title: "About"
+title: about
 excerpt: "About me"
+layout: single
 author_profile: true
+feature_image: images/profile_pic.png
 redirect_from: 
   - /about/
   - /about.html
