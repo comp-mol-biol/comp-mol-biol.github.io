@@ -58,5 +58,3 @@ Some pictures
 <!-- | Image 1 | Image 2 | Image 3 | -->
 <!-- |---------|---------|---------| -->
 <!-- | <img src="/images/mush_1.png" alt="Alt text 1" width="300"/> | <img src="/images/mush_2.png" alt="Alt text 2" width="300"/> | <img src="/images/mush_3.png" alt="Alt text 3" width="300"/> | <img src="/images/mush_4.png" alt="Alt text 4" width="400" height="2000"/> | -->
-
-------
