@@ -13,3 +13,4 @@ author_profile: true
 - Emanuele Zippo
 - Lucia Baltz
 - Yehor Tuchkov
+- Jonas Paulus
