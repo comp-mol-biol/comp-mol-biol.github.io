@@ -5,7 +5,7 @@ permalink: /group/
 author_profile: true
 ---
 # Group Leader
- Prof. Dr. Lukas Stelzl ![](profile.png)
+ Prof. Dr. Lukas Stelzl ![profile.png](profile.png)
 
 # PhD Students  
 - Kumar Gaurav 
