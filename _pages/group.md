@@ -4,7 +4,7 @@ title: ""
 permalink: /group/
 author_profile: true
 ---
-
+# Group Leader
  Prof. Dr. Lukas Stelzl
 
 # PhD Students  
