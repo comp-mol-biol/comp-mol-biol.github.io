@@ -4,15 +4,22 @@ title: "Group members"
 permalink: /group/
 author_profile: true
 ---
-# Group Leader
+
  Prof. Dr. Lukas Stelzl
+
 # PhD Students  
 - Kumar Gaurav 
 - Xiaofei Ping
-- Arya Changiarath Sivadasan
+- Jonas Paulus
 - Mahesh Yadav
 - Emanuele Zippo
 - Lucia Baltz
-- Yehor Tuchkov
-- Jonas Paulus
+- Vasilis Xenidis
+- Denis Aribas Blanco
+- Cyrille Ngueldjou Tahabo
+- Ritika Aggarwal
+  
 # Master Students
+
+# Formar Members
+- Arya Changiarath Sivadasan
