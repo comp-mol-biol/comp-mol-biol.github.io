@@ -1,0 +1,614 @@
+[
+  {
+    "doi": "https://doi.org/10.1039/D4FD00099D",
+    "title": "Sequence determinants of protein phase separation and recognition by protein phase-separated condensates through molecular dynamics and active learning",
+    "authors": [
+      "Arya Changiarath",
+      "Aayush Arya",
+      "Vasileios A. Xenidis",
+      "Jan Padeken",
+      "Lukas S. Stelzl"
+    ],
+    "publication_date": "2025",
+    "citation_count": 3
+  },
+  {
+    "doi": "https://doi.org/10.1007/978-3-031-93623-4_10",
+    "title": "Polymers: The Hidden Heroes of Life",
+    "authors": [
+      "D. Dormann",
+      "R. Fr\u00f6hlich",
+      "T. Dias",
+      "N. Belo do Couto",
+      "N. Heinss",
+      "S. Hutten",
+      "K. K\u00fcssner",
+      "A. Ceron-Noriega",
+      "L. Chargui",
+      "M. Gell\u00e9ri",
+      "A. Gopalan",
+      "K. Hert\u00e4g",
+      "R. Piccinno",
+      "C. Rickert",
+      "A. Schaaf",
+      "E. Schumbera",
+      "S. Shoup",
+      "F. Stiehler",
+      "P. Turunen",
+      "M. A. Andrade-Navarro",
+      "P. Beli",
+      "P. Besenius",
+      "M. Bonn",
+      "R. Dahm",
+      "S. Dhiman",
+      "S. Gerber",
+      "M. Girard",
+      "B. H\u00fclsmann",
+      "R. Ketting",
+      "E. Kim",
+      "J. K\u00f6nig",
+      "K. Kremer",
+      "O. Kukharenko",
+      "K. Landfester",
+      "K. Luck",
+      "A. Methner",
+      "J. Michels",
+      "M. M. M\u00f6ckel",
+      "S. Morsbach",
+      "S. Ritz",
+      "S. Schick-Nickolaus",
+      "F. Schmid",
+      "C. Schmidt",
+      "D. Schneider",
+      "S. Schweiger",
+      "T. Speck",
+      "L. Stelzl",
+      "M. te Vrugt",
+      "H. D. Ulrich",
+      "P. Virnau",
+      "A. Wachter",
+      "A. Walther",
+      "T. Weil",
+      "S. Wittmann",
+      "E. A. Lemke"
+    ],
+    "publication_date": "2025",
+    "citation_count": 0
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.bpj.2025.08.001",
+    "title": "Multi-scale simulations of MUT-16 scaffold protein phase separation and client recognition",
+    "authors": [
+      "Kumar Gaurav",
+      "Virginia Busetto",
+      "Diego Javier P\u00e1ez-Moscoso",
+      "Arya Changiarath",
+      "Sonya M. Hanson",
+      "Sebastian Falk",
+      "Ren\u00e9 F. Ketting",
+      "Lukas S. Stelzl"
+    ],
+    "publication_date": "2025-11",
+    "citation_count": 1
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.cell.2025.08.006",
+    "title": "A split-site E3 ligase mechanism enables ZNFX1 to ubiquitinate and cluster single-stranded RNA into ubiquitin-coated nucleoprotein particles",
+    "authors": [
+      "Daniel B. Grabarczyk",
+      "Eric J. Aird",
+      "Vanessa Reznikow",
+      "Paul C. Kirchgatterer",
+      "Julian F. Ehrmann",
+      "Robert Kurzbauer",
+      "Lillie E. Bell",
+      "Max J. Kellner",
+      "Ritika Aggarwal",
+      "Alexander Schleiffer",
+      "Victoria Faas",
+      "Luiza Deszcz",
+      "Anton Meinhart",
+      "Gijs A. Versteeg",
+      "Josef M. Penninger",
+      "Lukas S. Stelzl",
+      "Moritz M. Gaidt",
+      "Ingrid Tessmer",
+      "Jacob E. Corn",
+      "Tim Clausen"
+    ],
+    "publication_date": "2025-10",
+    "citation_count": 2
+  },
+  {
+    "doi": "https://doi.org/10.1101/2025.07.15.664932",
+    "title": "Bidirectional control of a metabolic transition by the GID ubiquitin ligase",
+    "authors": [
+      "Ka-Yiu Edwin Kong",
+      "Christian Ochs",
+      "C\u00e9cile Debarnot",
+      "Matti Myllykoski",
+      "Den\u00eds Arribas Blanco",
+      "Susmitha Shankar",
+      "Vivien A.C. Schoonenberg",
+      "Julia Ko\u0144czak",
+      "Julia K. Varga",
+      "Ora Schueler-Furman",
+      "Katja Luck",
+      "Falk Butter",
+      "Jia-Xuan Chen",
+      "Lukas S. Stelzl",
+      "Thomas Arnesen",
+      "Anton Khmelinskii"
+    ],
+    "publication_date": "",
+    "citation_count": 1
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.sbi.2025.103026",
+    "title": "Deciphering driving forces of biomolecular phase separation from simulations",
+    "authors": [
+      "Lars V. Sch\u00e4fer",
+      "Lukas S. Stelzl"
+    ],
+    "publication_date": "2025-6",
+    "citation_count": 5
+  },
+  {
+    "doi": "https://doi.org/10.1002/cmdc.202500244",
+    "title": "Proton First: Rationalizing a Proton Transfer in a Protein\u2010Fragment Complex",
+    "authors": [
+      "Helge Vatheuer",
+      "Jonas Paulus",
+      "Lisa Johannknecht",
+      "Gerald Keller",
+      "Rebecca Maria Ziora",
+      "Lukas S. Stelzl",
+      "Paul Czodrowski"
+    ],
+    "publication_date": "2025-10-15",
+    "citation_count": 1
+  },
+  {
+    "doi": "https://doi.org/10.1038/s41467-025-59676-4",
+    "title": "Molecular simulations of enzymatic phosphorylation of disordered proteins and their condensates",
+    "authors": [
+      "Emanuele Zippo",
+      "Dorothee Dormann",
+      "Thomas Speck",
+      "Lukas S. Stelzl"
+    ],
+    "publication_date": "2025-5-19",
+    "citation_count": 8
+  },
+  {
+    "doi": "https://doi.org/10.1101/2024.03.16.585180",
+    "title": "Promoter and Gene-Body RNA-Polymerase II co-exist in partial demixed condensates",
+    "authors": [
+      "Arya Changiarath",
+      "David Flores-Solis",
+      "Jasper J. Michels",
+      "Rosa Herrera Rodriguez",
+      "Sonya M. Hanson",
+      "Friederike Schmid",
+      "Markus Zweckstetter",
+      "Jan Padeken",
+      "Lukas S. Stelzl"
+    ],
+    "publication_date": "",
+    "citation_count": 5
+  },
+  {
+    "doi": "https://doi.org/10.1002/anie.202402498",
+    "title": "Structure and Internal Dynamics of Short RNA Duplexes Determined by a Combination of Pulsed EPR Methods and MD Simulations",
+    "authors": [
+      "Maximilian Gauger",
+      "Marcel Heinz",
+      "Anna\u2010Lena J. Halbritter",
+      "Lukas S. Stelzl",
+      "Nicole Erlenbach",
+      "Gerhard Hummer",
+      "Snorri Th. Sigurdsson",
+      "Thomas F. Prisner"
+    ],
+    "publication_date": "2024-6-3",
+    "citation_count": 13
+  },
+  {
+    "doi": "https://doi.org/10.1101/2024.04.13.589337",
+    "title": "Multi-scale Simulations of MUT-16 Scaffold Protein Phase Separation and Client Recognition",
+    "authors": [
+      "Kumar Gaurav",
+      "Virginia Busetto",
+      "Diego Javier P\u00e1ez-Moscoso",
+      "Arya Changiarath",
+      "Sonya M. Hanson",
+      "Sebastian Falk",
+      "Ren\u00e9 F. Ketting",
+      "Lukas S. Stelzl"
+    ],
+    "publication_date": "",
+    "citation_count": 2
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jctc.3c01049",
+    "title": "Hierarchical Assembly of Single-Stranded RNA",
+    "authors": [
+      "Lisa M. Pietrek",
+      "Lukas S. Stelzl",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2024-3-12",
+    "citation_count": 6
+  },
+  {
+    "doi": "https://doi.org/10.1038/s41467-023-41633-8",
+    "title": "Driving forces behind phase separation of the carboxy-terminal domain of RNA polymerase II",
+    "authors": [
+      "David Flores-Solis",
+      "Irina P. Lushpinskaia",
+      "Anton A. Polyansky",
+      "Arya Changiarath",
+      "Marc Boehning",
+      "Milana Mirkovic",
+      "James Walshe",
+      "Lisa M. Pietrek",
+      "Patrick Cramer",
+      "Lukas S. Stelzl",
+      "Bojan Zagrovic",
+      "Markus Zweckstetter"
+    ],
+    "publication_date": "2023-9-25",
+    "citation_count": 55
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.sbi.2022.102501",
+    "title": "Structural ensembles of disordered proteins from hierarchical chain growth and simulation",
+    "authors": [
+      "Lisa M. Pietrek",
+      "Lukas S. Stelzl",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2023-2",
+    "citation_count": 27
+  },
+  {
+    "doi": "https://doi.org/10.1038/s41594-023-00992-y",
+    "title": "Structural basis of substrate recognition by human tRNA splicing endonuclease TSEN",
+    "authors": [
+      "Samoil Sekulovski",
+      "Lukas Su\u0161ac",
+      "Lukas S. Stelzl",
+      "Robert Tamp\u00e9",
+      "Simon Trowitzsch"
+    ],
+    "publication_date": "2023-6",
+    "citation_count": 21
+  },
+  {
+    "doi": "https://doi.org/10.1063/5.0105540",
+    "title": "Single-chain and condensed-state behavior of hnRNPA1 from molecular simulations",
+    "authors": [
+      "D. Janka Bauer",
+      "Lukas S. Stelzl",
+      "Arash Nikoubashman"
+    ],
+    "publication_date": "2022-10-21",
+    "citation_count": 25
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.isci.2022.104892",
+    "title": "Substrate spectrum of PPM1D in the cellular response to DNA double-strand breaks",
+    "authors": [
+      "Justus F. Gr\u00e4f",
+      "Ivan Mikicic",
+      "Xiaofei Ping",
+      "Claudia Scalera",
+      "Katharina Mayr",
+      "Lukas S. Stelzl",
+      "Petra Beli",
+      "Sebastian A. Wagner"
+    ],
+    "publication_date": "2022-9",
+    "citation_count": 12
+  },
+  {
+    "doi": "https://doi.org/10.15252/embj.2021108443",
+    "title": "Disease\u2010linked TDP\u201043 hyperphosphorylation suppresses TDP\u201043 condensation and aggregation",
+    "authors": [
+      "Lara A Gruijs da Silva",
+      "Francesca Simonetti",
+      "Saskia Hutten",
+      "Henrick Riemenschneider",
+      "Erin L Sternburg",
+      "Lisa M Pietrek",
+      "Jakob Gebel",
+      "Volker D\u00f6tsch",
+      "Dieter Edbauer",
+      "Gerhard Hummer",
+      "Lukas S Stelzl",
+      "Dorothee Dormann"
+    ],
+    "publication_date": "2022-4-19",
+    "citation_count": 163
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jpclett.2c01807",
+    "title": "Transition Rates and Efficiency of Collective Variables from Time-Dependent Biased Simulations",
+    "authors": [
+      "Karen Palacio-Rodriguez",
+      "Hadrien Vroylandt",
+      "Lukas S. Stelzl",
+      "Fabio Pietrucci",
+      "Gerhard Hummer",
+      "Pilar Cossio"
+    ],
+    "publication_date": "2022-8-18",
+    "citation_count": 23
+  },
+  {
+    "doi": "https://doi.org/10.1101/2022.09.07.506916",
+    "title": "Molecular determinants of dynamic protein-protein interactions in the functional cycle of the membrane protein DsbD",
+    "authors": [
+      "Lukas S. Stelzl",
+      "Paraskevi Kritsiligkou",
+      "Ahmad Reza Mehdipour",
+      "Andrew J. Baldwin",
+      "Stuart J. Ferguson",
+      "Despoina A. I. Mavridou",
+      "Mark S. P. Sansom",
+      "Christina Redfield"
+    ],
+    "publication_date": "",
+    "citation_count": 0
+  },
+  {
+    "doi": "https://doi.org/10.1021/jacsau.1c00536",
+    "title": "Global Structure of the Intrinsically Disordered Protein Tau Emerges from Its Local Structure",
+    "authors": [
+      "Lukas S. Stelzl",
+      "Lisa M. Pietrek",
+      "Andrea Holla",
+      "Javier Oroz",
+      "Mateusz Sikora",
+      "J\u00fcrgen K\u00f6finger",
+      "Benjamin Schuler",
+      "Markus Zweckstetter",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2022-3-28",
+    "citation_count": 73
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jctc.0c01064",
+    "title": "Simulation of FUS Protein Condensates with an Adapted Coarse-Grained Model",
+    "authors": [
+      "Zakarya Benayad",
+      "S\u00f6ren von B\u00fclow",
+      "Lukas S. Stelzl",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2021-1-12",
+    "citation_count": 206
+  },
+  {
+    "doi": "https://doi.org/10.26434/chemrxiv.12192732",
+    "title": "Compaction of RNA Duplexes in the Cell",
+    "authors": [
+      "Alberto Collauto",
+      "S\u00f6ren von B\u00fclow",
+      "Dnyaneshwar B. Gophane",
+      "Subham Saha",
+      "Lukas S. Stelzl",
+      "Gerhard Hummer",
+      "Snorri Th. Sigurdsson",
+      "Thomas F. Prisner"
+    ],
+    "publication_date": "",
+    "citation_count": 0
+  },
+  {
+    "doi": "https://doi.org/10.1093/nar/gkz1096",
+    "title": "High-resolution EPR distance measurements on RNA and DNA with the non-covalent \u01f4 spin label",
+    "authors": [
+      "Marcel Heinz",
+      "Nicole Erlenbach",
+      "Lukas S Stelzl",
+      "Grace Thierolf",
+      "Nilesh R Kamble",
+      "Snorri Th Sigurdsson",
+      "Thomas F Prisner",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2020-1-24",
+    "citation_count": 29
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jctc.9b00809",
+    "title": "Hierarchical Ensembles of Intrinsically Disordered Proteins at Atomic Resolution in Molecular Dynamics Simulations",
+    "authors": [
+      "Lisa M. Pietrek",
+      "Lukas S. Stelzl",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2020-1-14",
+    "citation_count": 86
+  },
+  {
+    "doi": "https://doi.org/10.7554/elife.54661",
+    "title": "Local frustration determines loop opening during the catalytic cycle of an oxidoreductase",
+    "authors": [
+      "Lukas S Stelzl",
+      "Despoina AI Mavridou",
+      "Emmanuel Saridakis",
+      "Diego Gonzalez",
+      "Andrew J Baldwin",
+      "Stuart J Ferguson",
+      "Mark SP Sansom",
+      "Christina Redfield"
+    ],
+    "publication_date": "2020-6-22",
+    "citation_count": 18
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jctc.8b01231",
+    "title": "Efficient Ensemble Refinement by Reweighting",
+    "authors": [
+      "J\u00fcrgen K\u00f6finger",
+      "Lukas S. Stelzl",
+      "Klaus Reuter",
+      "C\u00e9sar Allande",
+      "Katrin Reichel",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2019-5-14",
+    "citation_count": 95
+  },
+  {
+    "doi": "https://doi.org/10.1007/s00723-018-1057-3",
+    "title": "Orientation Selective 2D-SIFTER Experiments at X-Band Frequencies",
+    "authors": [
+      "A. M. Bowen",
+      "N. Erlenbach",
+      "P. van Os",
+      "L. S. Stelzl",
+      "S. Th. Sigurdsson",
+      "T. F. Prisner"
+    ],
+    "publication_date": "2018-12",
+    "citation_count": 10
+  },
+  {
+    "doi": "https://doi.org/10.1002/anie.201803682",
+    "title": "Dynamics of Nucleic Acids at Room Temperature Revealed by Pulsed EPR Spectroscopy",
+    "authors": [
+      "Markus Gr\u00e4nz",
+      "Nicole Erlenbach",
+      "Philipp Spindler",
+      "Dnyaneshwar B. Gophane",
+      "Lukas S. Stelzl",
+      "Snorri Th. Sigurdsson",
+      "Thomas F. Prisner"
+    ],
+    "publication_date": "2018-8-13",
+    "citation_count": 20
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jpcb.8b07537",
+    "title": "Dispersion Correction Alleviates Dye Stacking of Single-Stranded DNA and RNA in Simulations of Single-Molecule Fluorescence Experiments",
+    "authors": [
+      "Kara K. Grotz",
+      "Mark F. Nueesch",
+      "Erik D. Holmstrom",
+      "Marcel Heinz",
+      "Lukas S. Stelzl",
+      "Benjamin Schuler",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2018-12-13",
+    "citation_count": 35
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jpclett.8b02439",
+    "title": "Precision DEER Distances from Spin-Label Ensemble Refinement",
+    "authors": [
+      "Katrin Reichel",
+      "Lukas S. Stelzl",
+      "J\u00fcrgen K\u00f6finger",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2018-10-4",
+    "citation_count": 27
+  },
+  {
+    "doi": "https://doi.org/10.1002/chem.201804040",
+    "title": "Optimal Destabilization of DNA Double Strands by Single\u2010Nucleobase Caging",
+    "authors": [
+      "Patrick Seyfried",
+      "Marcel Heinz",
+      "Gy\u00f6rgy Pint\u00e9r",
+      "Dean\u2010Paulos Kl\u00f6tzner",
+      "Yvonne Becker",
+      "Michael Bolte",
+      "Hendrik R. A. Jonker",
+      "Lukas S. Stelzl",
+      "Gerhard Hummer",
+      "Harald Schwalbe",
+      "Alexander Heckel"
+    ],
+    "publication_date": "2018-11-27",
+    "citation_count": 20
+  },
+  {
+    "doi": "https://doi.org/10.1021/jacs.7b05363",
+    "title": "Resolving the Conformational Dynamics of DNA with \u00c5ngstrom Resolution by Pulsed Electron\u2013Electron Double Resonance and Molecular Dynamics",
+    "authors": [
+      "Lukas S. Stelzl",
+      "Nicole Erlenbach",
+      "Marcel Heinz",
+      "Thomas F. Prisner",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2017-8-30",
+    "citation_count": 50
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jctc.7b00372",
+    "title": "Kinetics from Replica Exchange Molecular Dynamics Simulations",
+    "authors": [
+      "Lukas S. Stelzl",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2017-8-8",
+    "citation_count": 69
+  },
+  {
+    "doi": "https://doi.org/10.1021/acs.jctc.7b00373",
+    "title": "Dynamic Histogram Analysis To Determine Free Energies and Rates from Biased Simulations",
+    "authors": [
+      "Lukas S. Stelzl",
+      "Adam Kells",
+      "Edina Rosta",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2017-12-12",
+    "citation_count": 58
+  },
+  {
+    "doi": "https://doi.org/10.1073/pnas.1506386112",
+    "title": "Structural basis for specificity and promiscuity in a carrier protein/enzyme system from the sulfur cycle",
+    "authors": [
+      "Daniel B. Grabarczyk",
+      "Paul E. Chappell",
+      "Steven Johnson",
+      "Lukas S. Stelzl",
+      "Susan M. Lea",
+      "Ben C. Berks"
+    ],
+    "publication_date": "2015-12-29",
+    "citation_count": 26
+  },
+  {
+    "doi": "https://doi.org/10.1016/j.jmb.2013.10.024",
+    "title": "Flexible Gates Generate Occluded Intermediates in the Transport Cycle of LacY",
+    "authors": [
+      "Lukas S. Stelzl",
+      "Philip W. Fowler",
+      "Mark S.P. Sansom",
+      "Oliver Beckstein"
+    ],
+    "publication_date": "2014-2",
+    "citation_count": 68
+  },
+  {
+    "doi": "https://doi.org/10.1007/s12104-011-9347-9",
+    "title": "1H, 13C and 15N resonance assignments for the oxidized and reduced states of the N-terminal domain of DsbD from Escherichia coli",
+    "authors": [
+      "Despoina A. I. Mavridou",
+      "Lukas S. Stelzl",
+      "Stuart J. Ferguson",
+      "Christina Redfield"
+    ],
+    "publication_date": "2012-10",
+    "citation_count": 4
+  }
+]
