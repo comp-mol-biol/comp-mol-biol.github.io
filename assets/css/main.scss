@@ -51,6 +51,44 @@
   }
 }
 
+// group leader: photo left, info right (stacks on narrow screens)
+.group-leader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin-bottom: 2em;
+
+  &__photo {
+    flex: 0 0 200px;
+  }
+
+  &__info {
+    flex: 1 1 320px;
+
+    > :first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+// member table: image stacked above the name in one cell
+.member-table {
+  &__person {
+    text-align: center;
+    width: 220px;
+    vertical-align: top;
+
+    img {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  td {
+    vertical-align: top;
+  }
+}
+
 // responsive Google Maps embed (contact page)
 .map-embed {
   position: relative;
