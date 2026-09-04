@@ -18,16 +18,44 @@
   {% capture overlay_img_path %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
 {% endif %}
 
+{% if page.header.overlay_video contains "://" %}
+  {% capture overlay_video_path %}{{ page.header.overlay_video }}{% endcapture %}
+{% elsif page.header.overlay_video %}
+  {% capture overlay_video_path %}{{ page.header.overlay_video | prepend: "/files/videos/" | prepend: base_path }}{% endcapture %}
+{% endif %}
+
+{% if page.header.overlay_poster contains "://" %}
+  {% capture overlay_poster_path %}{{ page.header.overlay_poster }}{% endcapture %}
+{% elsif page.header.overlay_poster %}
+  {% capture overlay_poster_path %}{{ page.header.overlay_poster | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+{% endif %}
+
 {% if page.header.overlay_filter contains "rgba" %}
   {% capture overlay_filter %}{{ page.header.overlay_filter }}{% endcapture %}
 {% elsif page.header.overlay_filter %}
   {% capture overlay_filter %}rgba(0, 0, 0, {{ page.header.overlay_filter }}){% endcapture %}
 {% endif %}
 
-<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+<div class="page__hero{% if page.header.overlay_color or page.header.overlay_image or page.header.overlay_video %}--overlay{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path and overlay_video_path == nil %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
-  {% if page.header.overlay_color or page.header.overlay_image %}
+  {% if overlay_video_path %}
+    <video class="page__hero-video" poster="{{ overlay_poster_path | default: overlay_img_path }}" autoplay muted loop playsinline preload="metadata">
+      <source src="{{ overlay_video_path }}" type="video/mp4">
+    </video>
+    {% if overlay_filter %}<div class="page__hero-video-tint" style="background: {{ overlay_filter }};"></div>{% endif %}
+    <script>
+      (function () {
+        var v = document.currentScript.previousElementSibling;
+        if (v.tagName !== 'VIDEO') { v = document.currentScript.parentElement.querySelector('.page__hero-video'); }
+        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          v.removeAttribute('autoplay');
+          v.pause();
+        }
+      })();
+    </script>
+  {% endif %}
+  {% if page.header.overlay_color or page.header.overlay_image or page.header.overlay_video %}
     <div class="wrapper">
       <h1 class="page__title" itemprop="headline">
         {% if paginator %}

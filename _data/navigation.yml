@@ -1,19 +1,16 @@
 # main links links
 main:
+  - title: "Research"
+    url: /research/
+
   - title: "Group"
     url: /group/
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "News"
+    url: /news/
 
   - title: "Contact"
     url: /contact/

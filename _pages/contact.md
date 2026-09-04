@@ -7,11 +7,10 @@ author_profile: true
 
 Prof. Dr. Lukas Stelzl <br/>
 Biomolecular Simulation <br/>
+Institute of Molecular Physiology (IMP)<br/>
+Institute of Molecular Biology (IMB)<br/>
 Faculty of Biology <br/>
 Johannes Gutenberg University Mainz <br/>
-<br/>
-<a href="https://www.bio.uni-mainz.de/imp/">Institute of Molecular Physiology (IMP)</a> <br/>
-<a href="https://www.imb.de/research/our-research-groups/stelzl/research">Institute of Molecular Biology (IMB)</a> <br/>
 <br/>
 Johannes-von-Müller-Weg 6 <br/>
 Nat.- and Med.-building: 1321 <br/>
@@ -39,3 +38,5 @@ LinkedIn . . .
     Open directions in Google Maps
   </a>
 </p>
+
+{% include affiliations.html %}
