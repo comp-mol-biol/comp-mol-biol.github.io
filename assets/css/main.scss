@@ -39,3 +39,288 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* ==== custom overrides ==== */
+
+// justify body text ("Blocksatz")
+.page__content {
+  p,
+  li {
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
+// group leader: photo left, info right (stacks on narrow screens)
+.group-leader {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin-bottom: 2em;
+
+  &__photo {
+    flex: 0 0 200px;
+  }
+
+  &__info {
+    flex: 1 1 320px;
+
+    > :first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+// member table: image stacked above the name in one cell
+.member-table {
+  &__person {
+    text-align: center;
+    width: 220px;
+    vertical-align: top;
+
+    img {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  &__interest {
+    max-width: 260px;
+  }
+
+  &__contact {
+    white-space: nowrap;
+    width: 1%;
+  }
+
+  td {
+    vertical-align: top;
+  }
+}
+
+// responsive Google Maps embed (contact page)
+.map-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; // 16:9
+  margin: 1.5em 0;
+  overflow: hidden;
+  border-radius: $border-radius;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// quick-nav cards on the home page
+// (nested under .page__content so these selectors out-specificity the
+// generic `.page__content a { text-decoration: underline }` rule below)
+.page__content .home-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25em;
+  margin: 2.5em 0;
+
+  &__card {
+    display: block;
+    padding: 1.25em 1.5em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    text-decoration: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+
+    &:hover {
+      text-decoration: none;
+      border-color: $imp-red;
+      box-shadow: 0 2px 10px rgba(#000, 0.08);
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0.4em;
+      color: $imp-red;
+      text-decoration: underline;
+    }
+
+    p {
+      margin-bottom: 0;
+      color: $text-color;
+      font-size: $type-size-6;
+      text-decoration: none;
+    }
+  }
+}
+
+// affiliated institutions' logos (sidebar; also usable in page content)
+.affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+  margin: 3em 0 1em;
+  padding-top: 2em;
+  border-top: 1px solid $border-color;
+
+  a {
+    display: inline-flex;
+  }
+
+  img {
+    max-height: 60px;
+    width: auto;
+    max-width: 180px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: filter 0.2s, opacity 0.2s;
+
+    &:hover {
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+  }
+}
+
+// in the narrow author sidebar: one logo per row, larger
+.sidebar .affiliations {
+  flex-direction: column;
+  gap: 1.25em;
+  margin: 1.5em 0 0;
+  padding-top: 1.25em;
+
+  img {
+    max-height: 48px;
+    max-width: 100%;
+  }
+}
+
+// looping simulation clip in the sidebar avatar slot
+.author__avatar-video {
+  max-width: 175px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+
+  @include breakpoint($large) {
+    padding: 5px;
+    border: 1px solid $border-color;
+  }
+}
+
+// big centered welcome headline on the home page
+.page__content .home-welcome {
+  margin-top: 0;
+  text-align: center;
+  font-size: $type-size-3 * 2;
+}
+
+// funder logos on the home page (under the Funding heading)
+.page__content .funding-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1.5em 2em;
+  align-items: center;
+  justify-items: center;
+  margin: 1.5em 0 2.5em;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    text-decoration: none;
+  }
+
+  img {
+    max-height: 80px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+// group photo on the home page, above the intro
+.page__content .home-photo {
+  margin: 0 0 1.5em;
+
+  img {
+    width: 100%;
+    border-radius: $border-radius;
+  }
+}
+
+// cross-fading group-photo slideshow on the home page
+.page__content .home-slideshow {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  margin: 0 0 1.5em;
+  overflow: hidden;
+  border-radius: $border-radius;
+  background: $lighter-gray;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  img.is-active {
+    opacity: 1;
+  }
+
+  &__dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.75em;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    z-index: 2;
+  }
+
+  &__dot {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: rgba(#fff, 0.35);
+    cursor: pointer;
+    transition: background 0.2s;
+
+    &.is-active {
+      background: #fff;
+    }
+  }
+}
+
+// inline Bluesky icon (sidebar social list + contact page) — the bundled
+// Font Awesome 5.5 predates the Bluesky glyph, so this is an SVG instead.
+// The wrapper carries .fa-fw so it occupies the same 1.25em centred box as
+// the font icons; the svg matches a glyph's height and baseline offset.
+.bluesky-icon {
+  display: inline-block;
+  line-height: 1;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+  }
+}
+
+.social-icons .bluesky-icon {
+  color: $bluesky-color;
+}

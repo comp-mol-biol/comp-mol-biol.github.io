@@ -7,9 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Computational Molecular Biology"
+title                    : "Biomolecular Simulation"
+subtitle                 : "Computational Molecular Biology"
+lab_name                 : "Stelzl Lab"
 title_separator          : "-"
-name                     : &name "Computational Molecular Biology"
+name                     : &name "Biomolecular Simulation"
 description              : &description "personal description"
 url                      : https://comp-mol-biol.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -74,19 +76,22 @@ analytics:
 
 # Site Author
 author:
-  name             : "Computational Molecular Biology"
-  avatar           : "profile_pic.png"
-  bio              : 
+  name             : "Stelzl Lab"
+  avatar           : "lab-avatar-poster.jpg"   # still shown while the clip loads / under reduced-motion
+  avatar_video     : "lab-avatar.mp4"          # looping simulation clip in the sidebar avatar slot
+  bio              :
   location         : "Mainz, Germany"
+  location_url     : "/contact/"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : 
-  researchgate     : 
+  email            :
+  researchgate     :
   github           : "comp-mol-biol"
-  buymeacoffee     : 
-  stackoverflow    : 
-  twitter          : "l_stelzl"
+  linkedin         : "lukas-stelzl-ba3705374"
+  buymeacoffee     :
+  stackoverflow    :
+  bluesky          : "https://bsky.app/profile/did:plc:tzichnx7z2hq7fj24bx2shah"
   youtube          :
 
 # Reading Files
@@ -147,9 +152,6 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -182,15 +184,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""

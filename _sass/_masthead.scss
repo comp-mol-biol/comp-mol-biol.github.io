@@ -49,5 +49,20 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+
+    a {
+      line-height: 1.1;
+    }
+
+    .site-title {
+      display: block;
+    }
+
+    .site-subtitle {
+      display: block;
+      font-weight: 400;
+      font-size: 0.7em;
+      color: $dark-gray;
+    }
   }
 }

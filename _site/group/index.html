@@ -19,7 +19,7 @@
 
 
 
-<title>  Computational Molecular Biology</title>
+<title>  Biomolecular Simulation</title>
 
 
 
@@ -28,8 +28,8 @@
 
 
 <meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Computational Molecular Biology">
-<meta property="og:title" content="Computational Molecular Biology">
+<meta property="og:site_name" content="Biomolecular Simulation">
+<meta property="og:title" content="Biomolecular Simulation">
 
 
   <link rel="canonical" href="http://localhost:4000/group/">
@@ -56,7 +56,7 @@
     {
       "@context" : "http://schema.org",
       "@type" : "Person",
-      "name" : "Computational Molecular Biology",
+      "name" : "Biomolecular Simulation",
       "url" : "http://localhost:4000",
       "sameAs" : null
     }
@@ -70,7 +70,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Computational Molecular Biology Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Biomolecular Simulation Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -139,7 +139,14 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Computational Molecular Biology</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">
+            <span class="site-title">Biomolecular Simulation</span>
+            <span class="site-subtitle">Computational Molecular Biology</span>
+            <span class="site-subtitle">Stelzl Lab</span>
+          </a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Research</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/group/">Group</a></li>
@@ -148,13 +155,13 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/talks/">Talks</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">Blog Posts</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/news/">News</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/contact/">Contact</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -180,12 +187,25 @@
 
   <div class="author__avatar">
     
-    	<img src="http://localhost:4000/images/profile_pic.png" class="author__avatar large-avatar" alt="Computational Molecular Biology">
+    
+      
+      <video class="author__avatar-video large-avatar" poster="http://localhost:4000/images/lab-avatar-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Stelzl Lab — molecular simulation">
+        <source src="http://localhost:4000/files/videos/lab-avatar.mp4" type="video/mp4">
+      </video>
+      <script>
+        (function () {
+          var v = document.currentScript.previousElementSibling;
+          if (v && v.tagName === 'VIDEO' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            v.removeAttribute('autoplay');
+            v.pause();
+          }
+        })();
+      </script>
     
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">Computational Molecular Biology</h3>
+    <h3 class="author__name">Stelzl Lab</h3>
     
   </div>
 
@@ -193,7 +213,9 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Mainz, Germany</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+          <a href="/contact/">Mainz, Germany</a>
+        </li>
       
       
       
@@ -201,10 +223,13 @@
       
        
       
-        <li><a href="https://twitter.com/l_stelzl"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        <li><a href="https://bsky.app/profile/did:plc:tzichnx7z2hq7fj24bx2shah"><span class="bluesky-icon fa-fw"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M5.203 3.036C7.766 4.98 10.523 8.923 11.535 11.04c.171.358.263.55.263.55h.404s.092-.192.263-.55c1.012-2.117 3.769-6.06 6.332-8.004C20.921 1.635 24 .456 24 3.968c0 .7-.402 5.883-.638 6.72-.822 2.911-3.79 3.654-6.43 3.204 4.615.786 5.788 3.387 3.253 5.99-4.813 4.94-6.918-1.24-7.458-2.826-.099-.291-.146-.427-.146-.31 0-.117-.046.019-.145.31-.54 1.586-2.645 7.766-7.458 2.826-2.535-2.603-1.362-5.204 3.253-5.99-2.64.45-5.608-.293-6.43-3.204C.402 9.85 0 4.668 0 3.968 0 .456 3.079 1.635 5.203 3.036Z"/></svg></span> Bluesky</a></li>
       
       
       
+      
+      
+        <li><a href="https://www.linkedin.com/in/lukas-stelzl-ba3705374"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       
       
       
@@ -231,6 +256,21 @@
       
       
     </ul>
+
+    
+
+<div class="affiliations">
+  <a href="https://www.uni-mainz.de/" target="_blank" rel="noopener" title="Johannes Gutenberg University Mainz">
+    <img src="http://localhost:4000/images/jgu_logo_cropped.svg" alt="Johannes Gutenberg University Mainz" loading="lazy">
+  </a>
+  <a href="https://www.bio.uni-mainz.de/imp/" target="_blank" rel="noopener" title="Institute of Molecular Physiology (imP)">
+    <img src="http://localhost:4000/images/Logo-iMP-english.png" alt="Institute of Molecular Physiology (imP)" loading="lazy">
+  </a>
+  <a href="https://www.imb.de/research/our-research-groups/stelzl/research" target="_blank" rel="noopener" title="Institute of Molecular Biology (IMB)">
+    <img src="http://localhost:4000/images/imb.png" alt="Institute of Molecular Biology (IMB)" loading="lazy">
+  </a>
+</div>
+
   </div>
 </div>
 
@@ -243,97 +283,325 @@
       <h1 class="page__title"></h1>
     
     <h1 id="group-leader">Group Leader</h1>
-<p>Prof. Dr. Lukas Stelzl</p>
-<p><img src="/images/member_LukasStelzl.jpg" alt="picture of prof. Lukas Stelzl" width="200" /></p>
-<p style="font-size: 0.8em; margin-top: 5px;">© IMB mainz</p>
 
-<h1 id="phd-students">PhD Students</h1>
+<div class="group-leader">
+  <div class="group-leader__photo">
+    <img src="/images/member_LukasStelzl.jpg" alt="Portrait of Prof. Dr. Lukas Stelzl" width="200" />
+    <p style="font-size: 0.8em; margin-top: 5px;">© IMB Mainz</p>
+  </div>
+  <div class="group-leader__info">
+    <h2 id="prof-dr-lukas-stelzl">Prof. Dr. Lukas Stelzl</h2>
 
-<table>
+    <p><strong>Positions held</strong><br />
+<em>Since 2024:</em> Professor of Biomolecular Simulations, Johannes Gutenberg University Mainz and Adjunct Director, Institute of Molecular Biology (IMB), Mainz<br />
+<em>2020 – 2024:</em> ReALity Junior Group Leader and IMB Associate Group Leader, Faculty of Biology and KOMET1, Institute of Physics, Johannes Gutenberg University Mainz and Institute of Molecular Biology (IMB), Mainz<br />
+<em>2015 – 2020:</em> Postdoctoral fellow, Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main</p>
+
+    <p><strong>Education</strong><br />
+<em>2015:</em> DPhil in Biochemistry, University of Oxford, UK<br />
+<em>2010:</em> MBiochem, Molecular and Cellular Biochemistry, University of Oxford, UK</p>
+  </div>
+</div>
+
+<h1 id="postdocs">Postdocs</h1>
+
+<table class="member-table">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Image</th>
-      <th>Email</th>
-      <th>Room nr</th>
+      <th></th>
+      <th>Research interest</th>
+      <th>Code</th>
+      <th>Contact</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Cyrille Ngueldjou Tahabo</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>cngueldj@uni-mainz.de</td>
-      <td>00-122</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Xiaofei Ping" width="200" /><br />
+        <strong>Xiaofei Ping</strong>
+      </td>
+      <td class="member-table__interest"> </td>
+      <td></td>
+      <td class="member-table__contact">
+        <a href="mailto:xiaoping@students.uni-mainz.de">xiaoping@students.uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-125
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="phd-students">PhD Students</h1>
+
+<table class="member-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Research interest</th>
+      <th>Code</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Ritika Aggarwal" width="200" /><br />
+        <strong>Ritika Aggarwal</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__contact">
+        <a href="mailto:aggarwar@uni-mainz.de">aggarwar@uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-125
+      </td>
     </tr>
     <tr>
-      <td>Denis Aribas Blanco</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>darribas@uni-mainz.de</td>
-      <td>-</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Lucia Baltz" width="200" /><br />
+        <strong>Lucia Baltz</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__contact">
+        <a href="mailto:lubaltz@uni-mainz.de">lubaltz@uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-123
+      </td>
     </tr>
     <tr>
-      <td>Emanuele Zippo</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>zippoema@uni-mainz.de</td>
-      <td>00-123</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Denis Arribas Blanco" width="200" /><br />
+        <strong>Denis Arribas Blanco</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__contact">
+        <a href="mailto:darribas@uni-mainz.de">darribas@uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz
+      </td>
     </tr>
     <tr>
-      <td>Jonas Paulus</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>jpaulu01@uni-mainz.de</td>
-      <td>00-125</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Jonas Paulus" width="200" /><br />
+        <strong>Jonas Paulus</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__contact">
+        <a href="mailto:jpaulu01@uni-mainz.de">jpaulu01@uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-125
+      </td>
     </tr>
     <tr>
-      <td>Kumar Gaurav</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>kugaurav@uni-mainz.de</td>
-      <td>00-123</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Leon Persch" width="200" /><br />
+        <strong>Leon Persch</strong>
+      </td>
+      <td class="member-table__interest">Intrinsically disordered proteins, Alchemical Free Energy Calculations, Gromacs, Martini, ... </td>
+      <td><a href="https://github.com/LeonPersch">GitHub</a></td>
+      <td class="member-table__contact">
+        <a href="mailto:lepersch@students.uni-mainz.de">lepersch@students.uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-125
+      </td>
     </tr>
     <tr>
-      <td>Lucia Baltz</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>lubaltz@uni-mainz.de</td>
-      <td>00-123</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Cyrille Ngueldjou Tahabo" width="200" /><br />
+        <strong>Cyrille Ngueldjou Tahabo</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__contact">
+        <a href="mailto:cngueldj@uni-mainz.de">cngueldj@uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-122
+      </td>
     </tr>
     <tr>
-      <td>Mahesh Yadav</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>mahesh.yadav@uni-mainz.de</td>
-      <td>-</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Vasilis Xenidis" width="200" /><br />
+        <strong>Vasilis Xenidis</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__contact">
+        <a href="mailto:xenidisv@uni-mainz.de">xenidisv@uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-123
+      </td>
     </tr>
     <tr>
-      <td>Ritika Aggarwal</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>aggarwar@uni-mainz.de</td>
-      <td>-</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Mahesh Yadav" width="200" /><br />
+        <strong>Mahesh Yadav</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><a href="www.mahesh27dx.github.io">GitHub</a></td>
+      <td class="member-table__contact">
+        <a href="mailto:mahesh.yadav@uni-mainz.de">mahesh.yadav@uni-mainz.de</a><br />
+        Staudingerweg 9<br />
+        Phys.- and Mat.-building: 2413<br />
+        55128 Mainz<br />
+        Room 01-517
+      </td>
     </tr>
     <tr>
-      <td>Vasilis Xenidis</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>xenidisv@uni-mainz.de</td>
-      <td>00-123</td>
-    </tr>
-    <tr>
-      <td>Xiaofei Ping</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>xiaoping@uni-mainz.de</td>
-      <td>00-125</td>
-    </tr>
-    <tr>
-      <td>Leon Persch</td>
-      <td><img src="/images/profile.png" alt="drawing" width="200" style="vertical-align: middle;" /></td>
-      <td>lepersch@students.uni-mainz.de</td>
-      <td>00-125</td>
+      <td class="member-table__person">
+        <img src="/images/profile.png" alt="Emanuele Zippo" width="200" /><br />
+        <strong>Emanuele Zippo</strong>
+      </td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__contact">
+        <a href="mailto:zippoema@uni-mainz.de">zippoema@uni-mainz.de</a><br />
+        Johannes-von-Müller-Weg 6<br />
+        Nat.- and Med.-building: 1321<br />
+        55128 Mainz<br />
+        Room 00-123
+      </td>
     </tr>
   </tbody>
 </table>
 
 <h1 id="master-students">Master Students</h1>
 
-<h1 id="formar-members">Formar Members</h1>
-<ul>
-  <li>Arya Changiarath Sivadasan</li>
-</ul>
+<table class="member-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Master thesis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Olga Corrado</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Christian Fabri</strong></td>
+      <td class="member-table__interest">Extending Neural Network-Based Backmapping for
+Post-Translationally Modified Protein Condensates</td>
+    </tr>
+    <tr>
+      <td><strong>Stefan Grünewald Borras</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Theresa Huntemann</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Sergios Leftheriotis</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Dennis Martin</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Antonia Preuß</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Moxian Qian</strong></td>
+      <td class="member-table__interest">Stochastic Path Sampling for Protein Conformational Ensembles</td>
+    </tr>
+    <tr>
+      <td><strong>Minoo Rostami</strong></td>
+      <td class="member-table__interest">Antimicrobial peptides interacting with bacterial membranes</td>
+    </tr>
+    <tr>
+      <td><strong>Sascha Schwarzhaupt</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Joshua Zeitvogel</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="bachelor-students">Bachelor Students</h1>
+
+<table class="member-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Bachelor thesis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Beyza Bulut</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+    <tr>
+      <td><strong>Jim Roth</strong></td>
+      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="student-research-assistants">Student Research Assistants</h1>
+
+<table class="member-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Philip Frederic Mundt</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Rebecca Ziora</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="alumni">Alumni</h1>
+
+<table class="member-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Research interest</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Kumar Gaurav</strong></td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td class="member-table__contact"><a href="mailto:kugaurav@uni-mainz.de">kugaurav@uni-mainz.de</a></td>
+    </tr>
+    <tr>
+      <td><strong>Arya Changiarath Sivadasan</strong></td>
+      <td class="member-table__interest"><!-- TODO: short research interest --></td>
+      <td class="member-table__contact"><!-- TODO: contact --></td>
+    </tr>
+  </tbody>
+</table>
 
   </div>
 </div>
@@ -362,26 +630,12 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2026 Computational Molecular Biology. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 Biomolecular Simulation. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     <script src="http://localhost:4000/assets/js/main.min.js"></script>
-
-
-
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '', 'auto');
-  ga('send', 'pageview');
-</script>
-
 
 
 
