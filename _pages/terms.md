@@ -1,39 +1,29 @@
 ---
 permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
+title: "Cookies & Privacy"
+modified: 2026-09-10
 ---
 
-{% include base_path %}
-{% include toc %}
+This page explains what cookies and embedded third-party content this website uses, and how you can control them.
 
-## Privacy Policy
+## Cookie consent
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+When you first visit this site, a banner asks you to accept or decline non-essential cookies. Your choice is stored in your browser's local storage so you aren't asked again on later visits. You can change your choice at any time using the **Cookie settings** link in the footer of every page.
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+## What we use
 
-### Log Files
+**Site analytics** — if enabled, this site uses Google Analytics to understand how visitors use it (pages visited, approximate location, browser/device type). It only loads after you accept cookies.
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+**Google Maps** — the [Contact](/contact/) page can embed an interactive Google Map. Loading it fetches content from Google and may set cookies from google.com. This embed only loads after you accept cookies; until then (or if you decline) you can still get directions via the "Open in Google Maps" link, which simply opens Google Maps in a new tab without loading anything on this site.
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+We do not use advertising cookies, and we do not sell or share visitor data with third parties beyond what is inherent to the services described above.
 
-All of this information is not linked to anything that is personally identifiable.
+## Log files
 
-### Cookies and Web Beacons
+Like most web hosts, GitHub Pages (which hosts this site) automatically logs basic request information (IP address, browser type, referring page, date/time) for operational and security purposes. This is standard server behaviour, not a cookie, and is outside this lab's direct control — see [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details.
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
+## Questions
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
+For questions about this notice, or to request that data about you be corrected or deleted, contact [Prof. Dr. Lukas Stelzl](/contact/).
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
-
-#### Google Analytics
-
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+*This notice is a starting point and has not been reviewed by legal counsel. It should be checked against Johannes Gutenberg University Mainz's own data-protection requirements for group/institute web pages before being considered complete or authoritative.*

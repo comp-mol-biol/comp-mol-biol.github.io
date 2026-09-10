@@ -25,13 +25,17 @@ GitHub: <a href="https://github.com/comp-mol-biol"><i class="fab fa-fw fa-github
 
 <div class="map-embed">
   <iframe
-    src="https://www.google.com/maps?q=Johannes-von-M%C3%BCller-Weg%206,%2055128%20Mainz&z=16&output=embed"
+    data-consent-src="https://www.google.com/maps?q=Johannes-von-M%C3%BCller-Weg%206,%2055128%20Mainz&z=16&output=embed"
     style="border:0;"
     allowfullscreen
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
     title="Map showing Johannes-von-Müller-Weg 6, 55128 Mainz">
   </iframe>
+  <div class="map-embed__placeholder">
+    <p>The interactive map loads content from Google and requires accepting cookies.</p>
+    <button type="button" class="btn btn--small" onclick="window.reopenCookieConsent && window.reopenCookieConsent()">Cookie settings</button>
+  </div>
 </div>
 
 <p>
