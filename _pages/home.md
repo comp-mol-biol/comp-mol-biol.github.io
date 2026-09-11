@@ -57,7 +57,7 @@ header:
   })();
 </script>
 
-The Stelzl Lab is a computational biophysics research group at the [Institute of Molecular Physiology (imP)](https://www.bio.uni-mainz.de/imp/), Johannes Gutenberg University Mainz, led by Prof. Dr. Lukas Stelzl. We use multi-scale molecular simulations, from atomistic detail to residue-level and coarse-grained models, to understand how biomolecular condensates and liquid-liquid phase separation regulate gene expression in health, ageing, and disease.
+The Stelzl Lab is a computational biophysics research group at the [Institute of Molecular Physiology (imP)](https://www.bio.uni-mainz.de/imp/), Johannes Gutenberg University Mainz, led by Prof. Dr. Lukas Stelzl. We use multi-scale molecular simulations, from atomistic detail to residue-level coarse-grained models, to understand how biomolecular condensates and liquid-liquid phase separation regulate gene expression in health, ageing, and disease.
 
 <div class="home-links">
   <a class="home-links__card" href="/research/">
