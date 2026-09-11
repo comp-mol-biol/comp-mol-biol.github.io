@@ -74,11 +74,11 @@ author_profile: true
   <tbody>
     <tr>
       <td class="member-table__person">
-        <img src="/images/profile.png" alt="Ritika Aggarwal" width="200"/><br/>
+        <img src="/images/ritika.png" alt="Ritika Aggarwal" width="200"/><br/>
         <strong>Ritika Aggarwal</strong>
       </td>
-      <td class="member-table__interest"><!-- TODO: short research interest --></td>
-      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__interest">I am interested in studying the how IDR regions of E3 ligase enzymes attract the target substrates. My particular interest is in HUWE1 ligase, being promiscuous in nature, I want to understand what is the mechanism of actions of binding to multiple substrates using all atomistic, coarse grain simulations and machine learning approaches.</td>
+      <td><a href="linkedin.com/in/ritika117">LinkedIn</a></td>
       <td class="member-table__contact">
         <a href="mailto:aggarwar@uni-mainz.de">aggarwar@uni-mainz.de</a><br/>
         Johannes-von-Müller-Weg 6<br/>
@@ -89,11 +89,14 @@ author_profile: true
     </tr>
     <tr>
       <td class="member-table__person">
-        <img src="/images/profile.png" alt="Lucia Baltz" width="200"/><br/>
+        <img src="/images/Baltz, Luisa_41_.jpg" alt="Lucia Baltz" width="200"/><br/>
         <strong>Lucia Baltz</strong>
       </td>
-      <td class="member-table__interest"><!-- TODO: short research interest --></td>
-      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__interest">
+I use molecular dynamics simulations and machine learning-based contact analysis to study interaction patterns and dynamics during condensate formation. </td>
+      <td><a href="https://github.com/luhtzia">GitHub</a>  <br/>
+      <a href="https://de.linkedin.com/in/lucia-baltz/de">LinkedIn</a> <br/>
+      <a href="https://crc1551.com/lucia-baltz/">SFB1551</a> </td>
       <td class="member-table__contact">
         <a href="mailto:lubaltz@uni-mainz.de">lubaltz@uni-mainz.de</a><br/>
         Johannes-von-Müller-Weg 6<br/>
@@ -118,11 +121,11 @@ author_profile: true
     </tr>
     <tr>
       <td class="member-table__person">
-        <img src="/images/profile.png" alt="Jonas Paulus" width="200"/><br/>
+        <img src="/images/jonas.jpeg" alt="Jonas Paulus" width="200"/><br/>
         <strong>Jonas Paulus</strong>
       </td>
-      <td class="member-table__interest"><!-- TODO: short research interest --></td>
-      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__interest">My research interest focuses on protein - ligand binding free energy, currently i am focusing on protein conformational changes and their impact in ligand binding.</td>
+      <td><a href="https://github.com/Jonas-Paulus">GitHub</a></td>
       <td class="member-table__contact">
         <a href="mailto:jpaulu01@uni-mainz.de">jpaulu01@uni-mainz.de</a><br/>
         Johannes-von-Müller-Weg 6<br/>
@@ -133,13 +136,17 @@ author_profile: true
     </tr>
     <tr>
       <td class="member-table__person">
-        <img src="/images/profile.png" alt="Leon Persch" width="200"/><br/>
+        <img src="/images/leon.png" alt="Leon Persch" width="200"/><br/>
         <strong>Leon Persch</strong>
       </td>
-      <td class="member-table__interest">Intrinsically disordered proteins, Alchemical Free Energy Calculations, Gromacs, Martini, ... </td>
-      <td><a href="https://github.com/LeonPersch">GitHub</a></td>
+      <td class="member-table__interest">I use molecular dynamics and alchemical free energy perturbation (FEP) calculations to predict how mutations and ligand modifications affect binding free energies at atomic resolution.</td>
+      <td>
+      <!--<a href="https://github.com/LeonPersch">GitHub</a>-->
+      <a href="https://www.linkedin.com/in/leon-persch-92b640323/">LinkedIn</a> <br/>
+      </td>
       <td class="member-table__contact">
         <a href="mailto:lepersch@students.uni-mainz.de">lepersch@students.uni-mainz.de</a><br/>
+        <a href="mailto:lpersch@uni-mainz.de">lpersch@uni-mainz.de</a><br/>
         Johannes-von-Müller-Weg 6<br/>
         Nat.- and Med.-building: 1321<br/>
         55128 Mainz<br/>
@@ -222,7 +229,7 @@ author_profile: true
   <tbody>
     <tr>
       <td><strong>Olga Corrado</strong></td>
-      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+      <td class="member-table__interest">Exploring the Effect of Post-Translational Modifications on TDP-43 Phase Separation</td>
     </tr>
     <tr>
       <td><strong>Christian Fabri</strong></td>
@@ -235,14 +242,10 @@ Post-Translationally Modified Protein Condensates</td>
     </tr>
     <tr>
       <td><strong>Theresa Huntemann</strong></td>
-      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+      <td class="member-table__interest">Hierachcial contact analysis of biomolecules condensates based on interface dynamics.</td>
     </tr>
     <tr>
       <td><strong>Sergios Leftheriotis</strong></td>
-      <td class="member-table__interest"><!-- TODO: thesis title --></td>
-    </tr>
-    <tr>
-      <td><strong>Dennis Martin</strong></td>
       <td class="member-table__interest"><!-- TODO: thesis title --></td>
     </tr>
     <tr>
@@ -283,8 +286,12 @@ Post-Translationally Modified Protein Condensates</td>
       <td class="member-table__interest"><!-- TODO: thesis title --></td>
     </tr>
     <tr>
+      <td><strong>Dennis Martin</strong></td>
+      <td class="member-table__interest">Molecular Dynamics Studies on the Mechanism of Action of Fludioxonil in the MoHik1p Signal Transduction System of Magnaporthe oryzae</td>
+    </tr>
+    <tr>
       <td><strong>Jim Roth</strong></td>
-      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+      <td class="member-table__interest">Intramolecular Contacts and Conserved-Region Helicity in TDP-43</td>
     </tr>
   </tbody>
 </table>

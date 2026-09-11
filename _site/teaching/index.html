@@ -378,7 +378,7 @@ Sciences programmes at Johannes Gutenberg University Mainz.</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2026 Biomolecular Simulation. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 Biomolecular Simulation. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a href="http://localhost:4000/terms/">Cookies &amp; Privacy</a> · <button type="button" class="footer-cookie-settings" onclick="window.reopenCookieConsent && window.reopenCookieConsent()">Cookie settings</button></div>
 
       </footer>
     </div>
@@ -387,6 +387,82 @@ Sciences programmes at Johannes Gutenberg University Mainz.</p>
 
 
 
+
+    
+
+<div id="cookie-consent" class="cookie-consent" hidden>
+  <p>
+    This site uses cookies for site analytics and for embedded content (the Google Maps
+    embed on the <a href="http://localhost:4000/contact/">Contact page</a>). See our
+    <a href="http://localhost:4000/terms/">cookie &amp; privacy notice</a> for details.
+  </p>
+  <div class="cookie-consent__actions">
+    <button type="button" class="btn btn--small" id="cookie-consent-accept">Accept</button>
+    <button type="button" class="btn btn--small btn--inverse" id="cookie-consent-decline">Decline</button>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var KEY = 'cookie_consent';
+    var banner = document.getElementById('cookie-consent');
+
+    function activateGatedScripts() {
+      var gated = document.querySelectorAll('script[type="text/plain"][data-consent-category]');
+      for (var i = 0; i < gated.length; i++) {
+        var old = gated[i];
+        var s = document.createElement('script');
+        for (var a = 0; a < old.attributes.length; a++) {
+          var attr = old.attributes[a];
+          if (attr.name !== 'type') { s.setAttribute(attr.name, attr.value); }
+        }
+        s.text = old.text;
+        old.parentNode.replaceChild(s, old);
+      }
+    }
+
+    function activateGatedIframes() {
+      var frames = document.querySelectorAll('iframe[data-consent-src]');
+      for (var i = 0; i < frames.length; i++) {
+        frames[i].src = frames[i].getAttribute('data-consent-src');
+        frames[i].removeAttribute('data-consent-src');
+      }
+    }
+
+    function apply(choice) {
+      if (choice === 'accepted') {
+        activateGatedScripts();
+        activateGatedIframes();
+      }
+    }
+
+    var stored = null;
+    try { stored = localStorage.getItem(KEY); } catch (e) {}
+
+    if (stored) {
+      apply(stored);
+    } else if (banner) {
+      banner.hidden = false;
+    }
+
+    if (banner) {
+      document.getElementById('cookie-consent-accept').addEventListener('click', function () {
+        try { localStorage.setItem(KEY, 'accepted'); } catch (e) {}
+        apply('accepted');
+        banner.hidden = true;
+      });
+      document.getElementById('cookie-consent-decline').addEventListener('click', function () {
+        try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
+        banner.hidden = true;
+      });
+    }
+
+    // lets the Contact page's map placeholder (and the footer link) reopen the banner
+    window.reopenCookieConsent = function () {
+      if (banner) { banner.hidden = false; }
+    };
+  })();
+</script>
 
 
   </body>
