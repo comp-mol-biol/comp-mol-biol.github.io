@@ -9752,6 +9752,9 @@ img.mfp-img {
   color: #fff;
   box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
 }
+.cookie-consent[hidden] {
+  display: none;
+}
 .cookie-consent p {
   margin: 0;
   flex: 1 1 320px;
@@ -9812,4 +9815,8 @@ img.mfp-img {
   font: inherit;
   text-decoration: underline;
   cursor: pointer;
+}
+
+figure.figure--small img {
+  width: 400px;
 }

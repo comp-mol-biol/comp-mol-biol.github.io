@@ -333,6 +333,14 @@
   bottom: 0;
   z-index: 100;
   display: flex;
+
+  // a bare `.cookie-consent { display: flex }` ties in specificity with the
+  // browser's own `[hidden] { display: none }` default, and (being later in
+  // the cascade) wins — so the banner never actually hid via `.hidden = true`.
+  // This more-specific override forces it to hide correctly.
+  &[hidden] {
+    display: none;
+  }
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -411,4 +419,11 @@
   font: inherit;
   text-decoration: underline;
   cursor: pointer;
+}
+
+// smaller display size for a lower-quality figure — a plain width="…"
+// attribute on the <img> has no effect here since `figure img { width: 100% }`
+// (in _base.scss) always overrides it; this class-level rule outranks it
+figure.figure--small img {
+  width: 400px;
 }

@@ -64,8 +64,8 @@ Figure 4: Simulation slab box containing MUT-16 foci-forming region chains, each
 
 Disordered regions also regulate the pathway via auto-inhibition (Fig 5). Atomistic molecular dynamics simulations revealed that WAGO-3 is auto-inhibited by its N-terminal disordered tail (Isolehto bioRxiv 2025). The N-terminal disordered tail must move away for WAGO-3 to be able to bind RNA. Germ cells cannot develop properly when the N-terminus of WAGO-3 is deleted as the wrong RNAs are silenced and the worms are sterile consequently. 
 
-<figure>
-  <img src="/images/research3.png" alt="WAGO 3 IDR tail" />
+<figure class="figure--small">
+  <img src="/images/research3_upscayl_2x_upscayl-standard-4x.png" alt="WAGO 3 IDR tail" />
   <figcaption>
   Figure 5: Disordered tail of WAGO-3 blocks RNA binding site. Adapated from Isoletho bioRxiv 2025
   </figcaption>
