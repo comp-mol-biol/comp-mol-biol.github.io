@@ -47,8 +47,8 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
-/* imP / IMB brand colors (Institute of Molecular Physiology) */
-$imp-red                    : #c00a26;
+/* brand colors */
+$brand-blue                 : #143962;
 $imp-gray                   : #706f6f;
 
 $gray                       : $imp-gray;
@@ -64,7 +64,7 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : $imp-red;
+$primary-color              : $brand-blue;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -95,11 +95,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $imp-red;
+$link-color                 : $brand-blue;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $dark-gray;
-$masthead-link-color-hover  : $imp-red;
+$masthead-link-color-hover  : $brand-blue;
 
 
 /*

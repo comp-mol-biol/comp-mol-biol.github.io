@@ -24,6 +24,7 @@ author_profile: true
     <div class="archive__item" data-citation="{{ paper.citation_count }}" data-date="{{ paper.publication_date }}">
       <h2 class="archive__item-title">
         <a href="{{ paper.doi }}" target="_blank">{{ paper.title }}</a>
+        {% if paper.is_preprint %}<span class="preprint-badge" title="Not yet peer-reviewed">Preprint</span>{% endif %}
       </h2>
       <p class="archive__item-excerpt">
         {% for author in paper.authors %}
@@ -50,109 +51,109 @@ author_profile: true
     const publicationsContainer = document.getElementById('publications-container');
     const sortByCitationBtn = document.getElementById('sort-by-citation');
     const sortByDateBtn = document.getElementById('sort-by-date');
-    
-    // Get all publication items
+
+    /* Get all publication items */
     let publications = Array.from(publicationsContainer.children);
-    
-    // Function to sort by citation count (descending)
+
+    /* Sort by citation count (descending) */
     function sortByCitation() {
       publications.sort((a, b) => {
         const citationA = parseInt(a.getAttribute('data-citation'));
         const citationB = parseInt(b.getAttribute('data-citation'));
-        return citationB - citationA; // Descending order
+        return citationB - citationA; /* descending order */
       });
       updatePublications();
       setActiveButton(sortByCitationBtn);
     }
-    
-    // Function to sort by publication date (descending) with year grouping
+
+    /* Sort by publication date (descending) with year grouping */
     function sortByDate() {
       publications.sort((a, b) => {
         const dateA = a.getAttribute('data-date');
         const dateB = b.getAttribute('data-date');
-        
-        // Handle empty dates
+
+        /* handle empty dates */
         if (!dateA && !dateB) return 0;
         if (!dateA) return 1;
         if (!dateB) return -1;
-        
-        // Parse dates (assuming format like "YYYY-MM-DD")
+
+        /* parse dates (assuming format like "YYYY-MM-DD") */
         const dateObjA = new Date(dateA);
         const dateObjB = new Date(dateB);
-        
-        return dateObjB - dateObjA; // Descending order
+
+        return dateObjB - dateObjA; /* descending order */
       });
-      
-      // Group by year and add year headers
+
+      /* group by year and add year headers */
       updatePublicationsWithYearGrouping();
       setActiveButton(sortByDateBtn);
     }
-    
-    // Function to update the DOM with sorted publications and year grouping
+
+    /* Update the DOM with sorted publications and year grouping */
     function updatePublicationsWithYearGrouping() {
       publicationsContainer.innerHTML = '';
-      
+
       let currentYear = null;
       let yearGroup = [];
-      
+
       publications.forEach(pub => {
         const date = pub.getAttribute('data-date');
         if (!date) {
-          // Add to current year group if no date
+          /* add to current year group if no date */
           yearGroup.push(pub);
           return;
         }
-        
+
         const year = new Date(date).getFullYear();
-        
-        // If year changed, add year header and previous year's publications
+
+        /* if year changed, add year header and previous year's publications */
         if (year !== currentYear) {
           if (currentYear !== null) {
-            // Add year header
+            /* add year header */
             const yearHeader = document.createElement('h3');
             yearHeader.className = 'year-header';
             yearHeader.textContent = currentYear;
             publicationsContainer.appendChild(yearHeader);
-            
-            // Add publications for previous year
+
+            /* add publications for previous year */
             yearGroup.forEach(pubItem => publicationsContainer.appendChild(pubItem));
             yearGroup = [];
           }
           currentYear = year;
         }
-        
+
         yearGroup.push(pub);
       });
-      
-      // Add the last year's publications
+
+      /* add the last year's publications */
       if (currentYear !== null) {
         const yearHeader = document.createElement('h3');
         yearHeader.className = 'year-header';
         yearHeader.textContent = currentYear;
         publicationsContainer.appendChild(yearHeader);
-        
+
         yearGroup.forEach(pubItem => publicationsContainer.appendChild(pubItem));
       }
     }
-    
-    // Function to update the DOM with sorted publications (without year grouping)
+
+    /* Update the DOM with sorted publications (without year grouping) */
     function updatePublications() {
       publicationsContainer.innerHTML = '';
       publications.forEach(pub => publicationsContainer.appendChild(pub));
     }
-    
-    // Function to set active button
+
+    /* Set active button */
     function setActiveButton(activeBtn) {
       sortByCitationBtn.classList.remove('active');
       sortByDateBtn.classList.remove('active');
       activeBtn.classList.add('active');
     }
-    
-    // Add event listeners
+
+    /* add event listeners */
     sortByCitationBtn.addEventListener('click', sortByCitation);
     sortByDateBtn.addEventListener('click', sortByDate);
-    
-    // Initialize with date sorting
+
+    /* initialize with date sorting */
     sortByDate();
   });
 </script>

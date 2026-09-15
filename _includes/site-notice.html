@@ -1,21 +1,21 @@
 {% include base_path %}
 
-<div id="cookie-consent" class="cookie-consent" hidden>
+<div id="site-notice" class="site-notice" hidden>
   <p>
     This site uses cookies for site analytics and for embedded content (the Google Maps
     embed on the <a href="{{ base_path }}/contact/">Contact page</a>). See our
     <a href="{{ base_path }}/terms/">cookie &amp; privacy notice</a> for details.
   </p>
-  <div class="cookie-consent__actions">
-    <button type="button" class="btn btn--small" id="cookie-consent-accept">Accept</button>
-    <button type="button" class="btn btn--small btn--inverse" id="cookie-consent-decline">Decline</button>
+  <div class="site-notice__actions">
+    <button type="button" class="btn btn--small" id="site-notice-accept">Accept</button>
+    <button type="button" class="btn btn--small btn--inverse" id="site-notice-decline">Decline</button>
   </div>
 </div>
 
 <script>
   (function () {
-    var KEY = 'cookie_consent';
-    var banner = document.getElementById('cookie-consent');
+    var KEY = 'site_notice_choice';
+    var banner = document.getElementById('site-notice');
 
     function activateGatedScripts() {
       var gated = document.querySelectorAll('script[type="text/plain"][data-consent-category]');
@@ -56,19 +56,19 @@
     }
 
     if (banner) {
-      document.getElementById('cookie-consent-accept').addEventListener('click', function () {
+      document.getElementById('site-notice-accept').addEventListener('click', function () {
         try { localStorage.setItem(KEY, 'accepted'); } catch (e) {}
         apply('accepted');
         banner.hidden = true;
       });
-      document.getElementById('cookie-consent-decline').addEventListener('click', function () {
+      document.getElementById('site-notice-decline').addEventListener('click', function () {
         try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
         banner.hidden = true;
       });
     }
 
-    // lets the Contact page's map placeholder (and the footer link) reopen the banner
-    window.reopenCookieConsent = function () {
+    /* lets the Contact page's map placeholder (and the footer link) reopen the banner */
+    window.reopenSiteNotice = function () {
       if (banner) { banner.hidden = false; }
     };
   })();

@@ -1,0 +1,47 @@
+name: Update publication citation data
+
+on:
+  schedule:
+    # Every Monday at 03:00 UTC. Scheduled triggers only fire based on this
+    # file's state on the repository's default branch (GitHub limitation),
+    # and always run against that default branch -- so once this workflow
+    # is merged to main, the weekly run targets main automatically, with no
+    # further change needed here.
+    #
+    # Until then (or for an on-demand refresh any time), use the "Run
+    # workflow" button (workflow_dispatch, below) and pick whichever branch
+    # you want updated -- it always writes back to the branch it ran from.
+    - cron: '0 3 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the branch that triggered this run
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh citation data
+        run: python3 scripts/update_citations.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- _data/citation_data.json; then
+            echo "No citation changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/citation_data.json
+          git commit -m "chore: refresh publication citation data"
+          git push origin "HEAD:${{ github.ref_name }}"
