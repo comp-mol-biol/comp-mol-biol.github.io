@@ -9,7 +9,6 @@
 locale                   : "en-US"
 title                    : "Biomolecular Simulation"
 subtitle                 : "Computational Molecular Biology"
-lab_name                 : "Stelzl Lab"
 title_separator          : "-"
 name                     : &name "Biomolecular Simulation"
 description              : &description "personal description"
@@ -77,8 +76,7 @@ analytics:
 # Site Author
 author:
   name             : "Stelzl Lab"
-  avatar           : "lab-avatar-poster.jpg"   # still shown while the clip loads / under reduced-motion
-  avatar_video     : "lab-avatar.mp4"          # looping simulation clip in the sidebar avatar slot
+  avatar           : "stelzl_logo-v5_small.png"
   bio              :
   location         : "Mainz, Germany"
   location_url     : "/contact/"
@@ -121,6 +119,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - scripts
   - tmp
   - vendor
 keep_files:

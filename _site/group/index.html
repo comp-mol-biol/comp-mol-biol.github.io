@@ -142,7 +142,6 @@
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">
             <span class="site-title">Biomolecular Simulation</span>
             <span class="site-subtitle">Computational Molecular Biology</span>
-            <span class="site-subtitle">Stelzl Lab</span>
           </a></li>
           
             
@@ -188,19 +187,7 @@
   <div class="author__avatar">
     
     
-      
-      <video class="author__avatar-video large-avatar" poster="http://localhost:4000/images/lab-avatar-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Stelzl Lab — molecular simulation">
-        <source src="http://localhost:4000/files/videos/lab-avatar.mp4" type="video/mp4">
-      </video>
-      <script>
-        (function () {
-          var v = document.currentScript.previousElementSibling;
-          if (v && v.tagName === 'VIDEO' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            v.removeAttribute('autoplay');
-            v.pause();
-          }
-        })();
-      </script>
+      <img src="http://localhost:4000/images/stelzl_logo-v5_small.png" class="author__avatar large-avatar" alt="Stelzl Lab">
     
   </div>
 
@@ -340,7 +327,7 @@
     <tr>
       <th></th>
       <th>Research interest</th>
-      <th>Code</th>
+      <th>Website</th>
       <th>Contact</th>
     </tr>
   </thead>
@@ -443,11 +430,13 @@ I use molecular dynamics simulations and machine learning-based contact analysis
     </tr>
     <tr>
       <td class="member-table__person">
-        <img src="/images/profile.png" alt="Vasilis Xenidis" width="200" /><br />
-        <strong>Vasilis Xenidis</strong>
+        <img src="/images/vasilis.jpeg" alt="Vasilis Xenidis" width="200" /><br />
+        <strong>Vasileios A. Xenidis</strong>
       </td>
-      <td class="member-table__interest"><!-- TODO: short research interest --></td>
-      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__interest">My research interest lies in biomolecular condensate formation, which I study using all-atom molecular dynamics simulations and free energy methods applied to coacervate systems.</td>
+      <td><a href="https://www.linkedin.com/in/vasilis-xenidis-02636817b/">LinkedIn</a><br />
+      <a href="https://bsky.app/profile/xenidisv.bsky.social">Bluesky</a>
+      </td>
       <td class="member-table__contact">
         <a href="mailto:xenidisv@uni-mainz.de">xenidisv@uni-mainz.de</a><br />
         Johannes-von-Müller-Weg 6<br />
@@ -633,11 +622,10 @@ Post-Translationally Modified Protein Condensates</td>
       <li><a href="http://github.com/comp-mol-biol"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
-    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2026 Biomolecular Simulation. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a href="http://localhost:4000/terms/">Cookies &amp; Privacy</a> · <button type="button" class="footer-cookie-settings" onclick="window.reopenCookieConsent && window.reopenCookieConsent()">Cookie settings</button></div>
+<div class="page__footer-copyright">&copy; 2026 Biomolecular Simulation. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a href="http://localhost:4000/terms/">Cookies &amp; Privacy</a> · <button type="button" class="footer-notice-settings" onclick="window.reopenSiteNotice && window.reopenSiteNotice()">Cookie settings</button></div>
 
       </footer>
     </div>
@@ -649,22 +637,22 @@ Post-Translationally Modified Protein Condensates</td>
 
     
 
-<div id="cookie-consent" class="cookie-consent" hidden>
+<div id="site-notice" class="site-notice" hidden>
   <p>
     This site uses cookies for site analytics and for embedded content (the Google Maps
     embed on the <a href="http://localhost:4000/contact/">Contact page</a>). See our
     <a href="http://localhost:4000/terms/">cookie &amp; privacy notice</a> for details.
   </p>
-  <div class="cookie-consent__actions">
-    <button type="button" class="btn btn--small" id="cookie-consent-accept">Accept</button>
-    <button type="button" class="btn btn--small btn--inverse" id="cookie-consent-decline">Decline</button>
+  <div class="site-notice__actions">
+    <button type="button" class="btn btn--small" id="site-notice-accept">Accept</button>
+    <button type="button" class="btn btn--small btn--inverse" id="site-notice-decline">Decline</button>
   </div>
 </div>
 
 <script>
   (function () {
-    var KEY = 'cookie_consent';
-    var banner = document.getElementById('cookie-consent');
+    var KEY = 'site_notice_choice';
+    var banner = document.getElementById('site-notice');
 
     function activateGatedScripts() {
       var gated = document.querySelectorAll('script[type="text/plain"][data-consent-category]');
@@ -705,19 +693,19 @@ Post-Translationally Modified Protein Condensates</td>
     }
 
     if (banner) {
-      document.getElementById('cookie-consent-accept').addEventListener('click', function () {
+      document.getElementById('site-notice-accept').addEventListener('click', function () {
         try { localStorage.setItem(KEY, 'accepted'); } catch (e) {}
         apply('accepted');
         banner.hidden = true;
       });
-      document.getElementById('cookie-consent-decline').addEventListener('click', function () {
+      document.getElementById('site-notice-decline').addEventListener('click', function () {
         try { localStorage.setItem(KEY, 'declined'); } catch (e) {}
         banner.hidden = true;
       });
     }
 
-    // lets the Contact page's map placeholder (and the footer link) reopen the banner
-    window.reopenCookieConsent = function () {
+    /* lets the Contact page's map placeholder (and the footer link) reopen the banner */
+    window.reopenSiteNotice = function () {
       if (banner) { banner.hidden = false; }
     };
   })();

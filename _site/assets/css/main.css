@@ -21,7 +21,7 @@
 /*
    Colors
    ========================================================================== */
-/* imP / IMB brand colors (Institute of Molecular Physiology) */
+/* brand colors */
 /* brands */
 /* links */
 /*
@@ -144,7 +144,7 @@ audio:not([controls]) {
 }
 
 a {
-  color: #c00a26;
+  color: #143962;
 }
 
 /* Apply focus state */
@@ -353,7 +353,7 @@ blockquote {
   padding-left: 1em;
   padding-right: 1em;
   font-style: italic;
-  border-left: 0.25em solid #c00a26;
+  border-left: 0.25em solid #143962;
 }
 blockquote cite {
   font-style: italic;
@@ -1031,7 +1031,7 @@ tr, td, th {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: #c00a26;
+  background-color: #143962;
   border: 0 !important;
   border-radius: 4px;
   cursor: pointer;
@@ -1210,9 +1210,9 @@ tr, td, th {
   font-size: 0.75em !important;
   text-indent: initial;
   /* override*/
-  background-color: #f9e7e9;
+  background-color: #e8ebef;
   border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(192, 10, 38, 0.25);
+  box-shadow: 0 1px 1px rgba(20, 57, 98, 0.25);
 }
 .notice--primary h4 {
   margin-top: 0 !important;
@@ -1234,13 +1234,13 @@ tr, td, th {
   padding-top: 0;
 }
 .notice--primary a {
-  color: #c00a26;
+  color: #143962;
 }
 .notice--primary a:hover {
-  color: #730617;
+  color: #0c223b;
 }
 .notice--primary code {
-  background-color: #fcf3f4;
+  background-color: #f3f5f7;
 }
 .notice--primary ul:last-child {
   margin-bottom: 0;
@@ -1612,11 +1612,11 @@ tr, td, th {
   border-radius: 0;
 }
 .pagination li a:hover {
-  color: #90081d;
+  color: #0f2b4a;
 }
 .pagination li a.current {
   color: #fff;
-  background: #c00a26;
+  background: #143962;
 }
 .pagination li a.disabled {
   color: #dbdbdb;
@@ -1649,7 +1649,7 @@ tr, td, th {
   border-radius: 4px;
 }
 .pagination--pager:hover {
-  color: #90081d;
+  color: #0f2b4a;
 }
 .pagination--pager:first-child {
   border-top-right-radius: 0;
@@ -1692,7 +1692,7 @@ tr, td, th {
   text-decoration: none;
 }
 .greedy-nav a:hover {
-  color: #c00a26;
+  color: #143962;
 }
 .greedy-nav button {
   position: absolute;
@@ -1701,7 +1701,7 @@ tr, td, th {
   padding: 0 0.5rem;
   border: 0;
   outline: none;
-  background-color: #c00a26;
+  background-color: #143962;
   color: #fff;
   cursor: pointer;
 }
@@ -1730,7 +1730,7 @@ tr, td, th {
   left: 0;
   bottom: 0;
   height: 4px;
-  background: #e08593;
+  background: #8a9cb1;
   width: 100%;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1762,8 +1762,8 @@ tr, td, th {
   font-size: 1em;
 }
 .greedy-nav .hidden-links a:hover {
-  color: #c00a26;
-  background: #efc2c9;
+  color: #143962;
+  background: #c4ced8;
 }
 .greedy-nav .hidden-links:before {
   content: "";
@@ -1820,7 +1820,7 @@ tr, td, th {
   padding-right: 0.5em;
   color: #fff;
   font-weight: bold;
-  background: #c00a26;
+  background: #143962;
   border-radius: 4px;
 }
 .nav__list .active:hover {
@@ -1862,7 +1862,7 @@ tr, td, th {
 .toc .nav__title {
   color: #fff;
   font-size: 0.75em;
-  background: #c00a26;
+  background: #143962;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -2474,7 +2474,7 @@ select {
 input:hover,
 textarea:hover,
 select:hover {
-  border-color: #e08593;
+  border-color: #8a9cb1;
 }
 
 .input-mini {
@@ -2604,7 +2604,7 @@ textarea[readonly] {
    ========================================================================== */
 input:focus,
 textarea:focus {
-  border-color: #c00a26;
+  border-color: #143962;
   outline: 0;
   outline: thin dotted \9;
 }
@@ -3051,7 +3051,7 @@ select:focus {
 }
 .page__taxonomy-item:hover {
   text-decoration: none;
-  color: #90081d;
+  color: #0f2b4a;
 }
 
 /*
@@ -9573,13 +9573,13 @@ img.mfp-img {
 }
 .page__content .home-links__card:hover {
   text-decoration: none;
-  border-color: #c00a26;
+  border-color: #143962;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 .page__content .home-links__card h3 {
   margin-top: 0;
   margin-bottom: 0.4em;
-  color: #c00a26;
+  color: #143962;
   text-decoration: underline;
 }
 .page__content .home-links__card p {
@@ -9736,7 +9736,7 @@ img.mfp-img {
   color: #1185fe;
 }
 
-.cookie-consent {
+.site-notice {
   position: fixed;
   left: 0;
   right: 0;
@@ -9752,33 +9752,33 @@ img.mfp-img {
   color: #fff;
   box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
 }
-.cookie-consent[hidden] {
+.site-notice[hidden] {
   display: none;
 }
-.cookie-consent p {
+.site-notice p {
   margin: 0;
   flex: 1 1 320px;
   font-size: 0.75em;
 }
-.cookie-consent p a {
+.site-notice p a {
   color: #fff;
   text-decoration: underline;
 }
-.cookie-consent__actions {
+.site-notice__actions {
   display: flex;
   gap: 0.75em;
   flex: 0 0 auto;
 }
-.cookie-consent__actions .btn, .cookie-consent__actions #goog-wm-sb {
+.site-notice__actions .btn, .site-notice__actions #goog-wm-sb {
   padding: 0.4em 1.1em;
   font-size: 0.75em;
   margin-bottom: 0;
 }
-.cookie-consent__actions .btn--inverse {
+.site-notice__actions .btn--inverse {
   background: transparent;
   box-shadow: inset 0 0 0 1px #fff;
 }
-.cookie-consent__actions .btn--inverse:hover {
+.site-notice__actions .btn--inverse:hover {
   background: rgba(255, 255, 255, 0.15);
 }
 
@@ -9806,7 +9806,7 @@ img.mfp-img {
   display: none;
 }
 
-.footer-cookie-settings {
+.footer-notice-settings {
   background: none;
   border: 0;
   padding: 0;
@@ -9819,4 +9819,19 @@ img.mfp-img {
 
 figure.figure--small img {
   width: 400px;
+}
+
+.preprint-badge {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0.15em 0.6em;
+  border: 1px solid #f89406;
+  border-radius: 1em;
+  color: #f89406;
+  font-size: 0.55em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  white-space: nowrap;
 }

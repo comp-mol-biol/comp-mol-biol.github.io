@@ -34,7 +34,7 @@ GitHub: <a href="https://github.com/comp-mol-biol"><i class="fab fa-fw fa-github
   </iframe>
   <div class="map-embed__placeholder">
     <p>The interactive map loads content from Google and requires accepting cookies.</p>
-    <button type="button" class="btn btn--small" onclick="window.reopenCookieConsent && window.reopenCookieConsent()">Cookie settings</button>
+    <button type="button" class="btn btn--small" onclick="window.reopenSiteNotice && window.reopenSiteNotice()">Cookie settings</button>
   </div>
 </div>
 

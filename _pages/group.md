@@ -67,7 +67,7 @@ author_profile: true
     <tr>
       <th></th>
       <th>Research interest</th>
-      <th>Code</th>
+      <th>Website</th>
       <th>Contact</th>
     </tr>
   </thead>
@@ -170,11 +170,13 @@ I use molecular dynamics simulations and machine learning-based contact analysis
     </tr>
     <tr>
       <td class="member-table__person">
-        <img src="/images/profile.png" alt="Vasilis Xenidis" width="200"/><br/>
-        <strong>Vasilis Xenidis</strong>
+        <img src="/images/vasilis.jpeg" alt="Vasilis Xenidis" width="200"/><br/>
+        <strong>Vasileios A. Xenidis</strong>
       </td>
-      <td class="member-table__interest"><!-- TODO: short research interest --></td>
-      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__interest">My research interest lies in biomolecular condensate formation, which I study using all-atom molecular dynamics simulations and free energy methods applied to coacervate systems.</td>
+      <td><a href="https://www.linkedin.com/in/vasilis-xenidis-02636817b/">LinkedIn</a><br/>
+      <a href="https://bsky.app/profile/xenidisv.bsky.social">Bluesky</a>
+      </td>
       <td class="member-table__contact">
         <a href="mailto:xenidisv@uni-mainz.de">xenidisv@uni-mainz.de</a><br/>
         Johannes-von-Müller-Weg 6<br/>

@@ -135,14 +135,14 @@
 
     &:hover {
       text-decoration: none;
-      border-color: $imp-red;
+      border-color: $brand-blue;
       box-shadow: 0 2px 10px rgba(#000, 0.08);
     }
 
     h3 {
       margin-top: 0;
       margin-bottom: 0.4em;
-      color: $imp-red;
+      color: $brand-blue;
       text-decoration: underline;
     }
 
@@ -325,8 +325,9 @@
   color: $bluesky-color;
 }
 
-// cookie consent banner (fixed footer bar)
-.cookie-consent {
+// site notice banner (fixed footer bar) — named to avoid generic ad-blocker
+// filter lists that hide anything with "cookie"/"consent" in the class/id
+.site-notice {
   position: fixed;
   left: 0;
   right: 0;
@@ -334,7 +335,7 @@
   z-index: 100;
   display: flex;
 
-  // a bare `.cookie-consent { display: flex }` ties in specificity with the
+  // a bare `.site-notice { display: flex }` ties in specificity with the
   // browser's own `[hidden] { display: none }` default, and (being later in
   // the cascade) wins — so the banner never actually hid via `.hidden = true`.
   // This more-specific override forces it to hide correctly.
@@ -410,7 +411,7 @@
 }
 
 // plain-text "button" used for the footer's cookie-settings toggle
-.footer-cookie-settings {
+.footer-notice-settings {
   background: none;
   border: 0;
   padding: 0;
@@ -426,4 +427,20 @@
 // (in _base.scss) always overrides it; this class-level rule outranks it
 figure.figure--small img {
   width: 400px;
+}
+
+// flags a publications-list entry that isn't peer-reviewed yet
+.preprint-badge {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0.15em 0.6em;
+  border: 1px solid $warning-color;
+  border-radius: 1em;
+  color: $warning-color;
+  font-size: 0.55em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  white-space: nowrap;
 }
