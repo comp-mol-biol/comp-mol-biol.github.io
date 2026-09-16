@@ -588,6 +588,14 @@
     "is_preprint": false
   },
   {
+    "doi": "https://doi.org/10.1021/acs.jctc.9b00809",
+    "title": "Hierarchical Ensembles of Intrinsically Disordered Proteins at Atomic Resolution in Molecular Dynamics Simulations",
+    "authors": [],
+    "publication_date": "2020",
+    "citation_count": 74,
+    "is_preprint": false
+  },
+  {
     "doi": "https://doi.org/10.1093/nar/gkz1096",
     "title": "High-resolution EPR distance measurements on RNA and DNA with the non-covalent Ǵ spin label",
     "authors": [
@@ -603,33 +611,6 @@
     "publication_date": "2019-11-28",
     "citation_count": 28,
     "is_preprint": false
-  },
-  {
-    "doi": "https://doi.org/10.1101/731133",
-    "title": "Hierarchical Ensembles of Intrinsically Disordered Proteins at Atomic Resolution in Molecular Dynamics Simulations",
-    "authors": [
-      "Lisa M. Pietrek",
-      "L. Stelzl",
-      "G. Hummer"
-    ],
-    "publication_date": "2019-08-09",
-    "citation_count": 74,
-    "is_preprint": true
-  },
-  {
-    "doi": "https://doi.org/10.1101/686949",
-    "title": "Local frustration determines loop opening in protein-protein association",
-    "authors": [
-      "L. Stelzl",
-      "D. Mavridou",
-      "Andrew J. Baldwin",
-      "S. J. Ferguson",
-      "M. Sansom",
-      "C. Redfield"
-    ],
-    "publication_date": "2019-06-30",
-    "citation_count": 0,
-    "is_preprint": true
   },
   {
     "doi": "https://doi.org/10.7554/elife.54661",
