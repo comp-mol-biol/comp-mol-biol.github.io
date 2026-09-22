@@ -18,6 +18,7 @@
     ],
     "publication_date": "2026-08-28",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -30,6 +31,7 @@
     ],
     "publication_date": "2026-07-07",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -49,6 +51,7 @@
     ],
     "publication_date": "2026-07-01",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -63,6 +66,7 @@
     ],
     "publication_date": "2026-06-26",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -89,6 +93,7 @@
     ],
     "publication_date": "2026-06-26",
     "citation_count": 0,
+    "journal": "Advanced Science",
     "is_preprint": false
   },
   {
@@ -109,6 +114,7 @@
     ],
     "publication_date": "2026-06-09",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -127,6 +133,7 @@
     ],
     "publication_date": "2026-05-08",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -140,6 +147,7 @@
     ],
     "publication_date": "2026-04-09",
     "citation_count": 1,
+    "journal": "Physical Review Research",
     "is_preprint": false
   },
   {
@@ -154,6 +162,7 @@
     ],
     "publication_date": "2026-04-06",
     "citation_count": 1,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -175,6 +184,7 @@
     ],
     "publication_date": "2025-12-21",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -191,6 +201,7 @@
     ],
     "publication_date": "2025-06-18",
     "citation_count": 1,
+    "journal": "Chemmedchem",
     "is_preprint": false
   },
   {
@@ -202,6 +213,7 @@
     ],
     "publication_date": "2025-03-07",
     "citation_count": 16,
+    "journal": "Current opinion in structural biology",
     "is_preprint": false
   },
   {
@@ -219,6 +231,7 @@
     ],
     "publication_date": "2025-02-25",
     "citation_count": 4,
+    "journal": "Biophysical Journal",
     "is_preprint": false
   },
   {
@@ -232,6 +245,7 @@
     ],
     "publication_date": "2025-02-01",
     "citation_count": 0,
+    "journal": "Biophysical Journal",
     "is_preprint": false
   },
   {
@@ -246,6 +260,7 @@
     ],
     "publication_date": "2024-09-25",
     "citation_count": 4,
+    "journal": "Faraday discussions",
     "is_preprint": false
   },
   {
@@ -259,6 +274,7 @@
     ],
     "publication_date": "2024-09-14",
     "citation_count": 25,
+    "journal": "Nature Communications",
     "is_preprint": false
   },
   {
@@ -277,6 +293,7 @@
     ],
     "publication_date": "2024-06-21",
     "citation_count": 7,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -294,6 +311,7 @@
     ],
     "publication_date": "2024-03-26",
     "citation_count": 15,
+    "journal": "Angewandte Chemie",
     "is_preprint": false
   },
   {
@@ -306,6 +324,7 @@
     ],
     "publication_date": "2024-02-01",
     "citation_count": 0,
+    "journal": "Biophysical Journal",
     "is_preprint": false
   },
   {
@@ -326,6 +345,7 @@
     ],
     "publication_date": "2023-12-06",
     "citation_count": 15,
+    "journal": "The Journal of Physical Chemistry Letters",
     "is_preprint": false
   },
   {
@@ -347,6 +367,7 @@
     ],
     "publication_date": "2023-09-25",
     "citation_count": 43,
+    "journal": "Nature Communications",
     "is_preprint": false
   },
   {
@@ -359,6 +380,7 @@
     ],
     "publication_date": "2023-09-23",
     "citation_count": 8,
+    "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
   {
@@ -380,6 +402,7 @@
     ],
     "publication_date": "2023-04-03",
     "citation_count": 8,
+    "journal": "The EMBO Journal",
     "is_preprint": false
   },
   {
@@ -399,6 +422,7 @@
     ],
     "publication_date": "2023-02-01",
     "citation_count": 0,
+    "journal": "Biophysical journal",
     "is_preprint": false
   },
   {
@@ -411,6 +435,7 @@
     ],
     "publication_date": "2023-02-01",
     "citation_count": 2,
+    "journal": "Biophysical journal",
     "is_preprint": false
   },
   {
@@ -423,6 +448,7 @@
     ],
     "publication_date": "2022-10-28",
     "citation_count": 26,
+    "journal": "Current opinion in structural biology",
     "is_preprint": false
   },
   {
@@ -440,6 +466,7 @@
     ],
     "publication_date": "2022-09-07",
     "citation_count": 0,
+    "journal": "bioRxiv",
     "is_preprint": true
   },
   {
@@ -454,6 +481,7 @@
     ],
     "publication_date": "2022-09-03",
     "citation_count": 24,
+    "journal": "bioRxiv",
     "is_preprint": false
   },
   {
@@ -469,6 +497,7 @@
     ],
     "publication_date": "2022-08-08",
     "citation_count": 28,
+    "journal": "The journal of physical chemistry letters",
     "is_preprint": false
   },
   {
@@ -486,6 +515,7 @@
     ],
     "publication_date": "2022-08-01",
     "citation_count": 11,
+    "journal": "iScience",
     "is_preprint": false
   },
   {
@@ -501,6 +531,7 @@
     ],
     "publication_date": "2022-02-01",
     "citation_count": 2,
+    "journal": "Biophysical Journal",
     "is_preprint": false
   },
   {
@@ -519,6 +550,7 @@
     ],
     "publication_date": "2021-11-24",
     "citation_count": 65,
+    "journal": "JACS Au",
     "is_preprint": false
   },
   {
@@ -534,6 +566,7 @@
     ],
     "publication_date": "2021-09-23",
     "citation_count": 3,
+    "journal": "Biophysical Journal",
     "is_preprint": false
   },
   {
@@ -555,6 +588,7 @@
     ],
     "publication_date": "2021-04-30",
     "citation_count": 177,
+    "journal": "The EMBO Journal",
     "is_preprint": false
   },
   {
@@ -568,6 +602,7 @@
     ],
     "publication_date": "2020-10-10",
     "citation_count": 184,
+    "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
   {
@@ -585,14 +620,20 @@
     ],
     "publication_date": "2020-04-27",
     "citation_count": 33,
+    "journal": "Angewandte Chemie (International Ed. in English)",
     "is_preprint": false
   },
   {
     "doi": "https://doi.org/10.1021/acs.jctc.9b00809",
-    "title": "Hierarchical Ensembles of Intrinsically Disordered Proteins at Atomic Resolution in Molecular Dynamics Simulations",
-    "authors": [],
-    "publication_date": "2020",
+    "title": "Hierarchical Ensembles\nof Intrinsically Disordered\nProteins at Atomic Resolution in Molecular Dynamics Simulations",
+    "authors": [
+      "Lisa M. Pietrek",
+      "Lukas S. Stelzl",
+      "Gerhard Hummer"
+    ],
+    "publication_date": "2019-12-06",
     "citation_count": 74,
+    "journal": "Journal of Chemical Theory\nand Computation",
     "is_preprint": false
   },
   {
@@ -610,6 +651,7 @@
     ],
     "publication_date": "2019-11-28",
     "citation_count": 28,
+    "journal": "Nucleic Acids Research",
     "is_preprint": false
   },
   {
@@ -627,6 +669,7 @@
     ],
     "publication_date": "2019-06-30",
     "citation_count": 13,
+    "journal": "eLife",
     "is_preprint": false
   },
   {
@@ -642,6 +685,7 @@
     ],
     "publication_date": "2018-12-18",
     "citation_count": 94,
+    "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
   {
@@ -662,6 +706,7 @@
     ],
     "publication_date": "2018-11-05",
     "citation_count": 16,
+    "journal": "Chemistry",
     "is_preprint": false
   },
   {
@@ -678,6 +723,7 @@
     ],
     "publication_date": "2018-10-04",
     "citation_count": 28,
+    "journal": "The journal of physical chemistry. B",
     "is_preprint": false
   },
   {
@@ -693,6 +739,7 @@
     ],
     "publication_date": "2018-09-19",
     "citation_count": 1,
+    "journal": "Applied Magnetic Resonance",
     "is_preprint": false
   },
   {
@@ -706,6 +753,7 @@
     ],
     "publication_date": "2018-09-13",
     "citation_count": 22,
+    "journal": "The journal of physical chemistry letters",
     "is_preprint": false
   },
   {
@@ -722,6 +770,7 @@
     ],
     "publication_date": "2018-08-13",
     "citation_count": 20,
+    "journal": "Angewandte Chemie",
     "is_preprint": false
   },
   {
@@ -735,6 +784,7 @@
     ],
     "publication_date": "2017-11-09",
     "citation_count": 62,
+    "journal": "Journal of chemical theory and computation",
     "is_preprint": false
   },
   {
@@ -749,6 +799,7 @@
     ],
     "publication_date": "2017-08-17",
     "citation_count": 37,
+    "journal": "Journal of the American Chemical Society",
     "is_preprint": false
   },
   {
@@ -760,6 +811,7 @@
     ],
     "publication_date": "2017-07-21",
     "citation_count": 74,
+    "journal": "Journal of chemical theory and computation",
     "is_preprint": false
   },
   {
@@ -775,6 +827,7 @@
     ],
     "publication_date": "2015-12-11",
     "citation_count": 30,
+    "journal": "Proceedings of the National Academy of Sciences",
     "is_preprint": false
   },
   {
@@ -793,6 +846,7 @@
     ],
     "publication_date": "2015-08-10",
     "citation_count": 6,
+    "journal": "Safety in Health",
     "is_preprint": false
   },
   {
@@ -806,6 +860,7 @@
     ],
     "publication_date": "2014-02-06",
     "citation_count": 71,
+    "journal": "Journal of Molecular Biology",
     "is_preprint": false
   },
   {
@@ -819,6 +874,7 @@
     ],
     "publication_date": "2011-11-30",
     "citation_count": 4,
+    "journal": "Biomolecular Nmr Assignments",
     "is_preprint": false
   }
 ]

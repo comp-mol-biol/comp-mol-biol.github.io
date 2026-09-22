@@ -268,6 +268,10 @@ Post-Translationally Modified Protein Condensates</td>
     </tr>
     <tr>
       <td><strong>Joshua Zeitvogel</strong></td>
+      <td class="member-table__interest">Coarse-grain simulation of nucleosomes, condensates and their interaction with proteins</td>
+    </tr>
+    <tr>
+      <td><strong>Rebecca Ziora</strong></td>
       <td class="member-table__interest"><!-- TODO: thesis title --></td>
     </tr>
   </tbody>
@@ -309,9 +313,6 @@ Post-Translationally Modified Protein Condensates</td>
   <tbody>
     <tr>
       <td><strong>Philip Frederic Mundt</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Rebecca Ziora</strong></td>
     </tr>
   </tbody>
 </table>

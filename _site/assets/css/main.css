@@ -9821,6 +9821,10 @@ figure.figure--small img {
   width: 400px;
 }
 
+.archive__item-journal {
+  color: #143962;
+}
+
 .preprint-badge {
   display: inline-block;
   margin-left: 0.5em;
