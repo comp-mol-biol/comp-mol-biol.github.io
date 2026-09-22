@@ -187,7 +187,7 @@ I use molecular dynamics simulations and machine learning-based contact analysis
     </tr>
     <tr>
       <td class="member-table__person">
-        <img src="/images/yadav_pic.jpeg" alt="Mahesh Yadav" width="200"/><br/>
+        <img src="/images/yadav_pic.png" alt="Mahesh Yadav" width="200"/><br/>
         <strong>Mahesh Yadav</strong>
       </td>
       <td class="member-table__interest"><!-- TODO: short research interest --></td>
