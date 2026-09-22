@@ -191,7 +191,7 @@ I use molecular dynamics simulations and machine learning-based contact analysis
         <strong>Mahesh Yadav</strong>
       </td>
       <td class="member-table__interest"><!-- TODO: short research interest --></td>
-      <td><a href="https://mahesh27dx.github.io">GitHub</a></td>
+      <td><a href="https://mahesh27dx.github.io">Webpage</a></td>
       <td class="member-table__contact">
         <a href="mailto:mahesh.yadav@uni-mainz.de">mahesh.yadav@uni-mainz.de</a><br/>
         Staudingerweg 9<br/>
