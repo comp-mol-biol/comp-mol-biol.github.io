@@ -429,6 +429,11 @@ figure.figure--small img {
   width: 400px;
 }
 
+// journal name on a publications-list entry, made prominent per request
+.archive__item-journal {
+  color: $brand-blue;
+}
+
 // flags a publications-list entry that isn't peer-reviewed yet
 .preprint-badge {
   display: inline-block;

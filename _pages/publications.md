@@ -39,6 +39,7 @@ author_profile: true
         <strong>Citation Count:</strong> {{ paper.citation_count }}
         {% if paper.publication_date != "" %}
           <br><strong>Published:</strong> {{ paper.publication_date }}
+          {% if paper.journal != "" %} in <strong class="archive__item-journal">{{ paper.journal }}</strong>{% endif %}
         {% endif %}
       </p>
     </div>

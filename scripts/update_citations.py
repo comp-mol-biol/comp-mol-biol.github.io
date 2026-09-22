@@ -26,6 +26,7 @@ Writes: _data/citation_data.json (sorted newest-first)
 
 import json
 import pathlib
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -49,11 +50,19 @@ def normalize_doi(doi):
     return doi.strip().lower().removeprefix("https://doi.org/").removeprefix("doi:")
 
 
+def journal_name(p):
+    # journal.name tracks the current best-known venue and gets updated once
+    # a preprint is linked to its published version; venue is sometimes
+    # stale (still says e.g. "bioRxiv" after publication), so prefer journal.
+    return (p.get("journal") or {}).get("name") or p.get("venue") or ""
+
+
 def fetch_semantic_scholar_papers():
     url = (
         f"https://api.semanticscholar.org/graph/v1/author/{SEMANTIC_SCHOLAR_AUTHOR_ID}"
         "?fields=name,papers.title,papers.year,papers.publicationDate,"
-        "papers.citationCount,papers.externalIds,papers.authors"
+        "papers.citationCount,papers.externalIds,papers.authors,"
+        "papers.journal,papers.venue"
     )
     data = fetch_json(url)
     by_doi = {}
@@ -67,6 +76,7 @@ def fetch_semantic_scholar_papers():
             "authors": [a.get("name", "") for a in (p.get("authors") or [])],
             "publication_date": p.get("publicationDate") or (str(p["year"]) if p.get("year") else ""),
             "citation_count": p.get("citationCount") or 0,
+            "journal": journal_name(p),
         }
     return by_doi
 
@@ -74,7 +84,7 @@ def fetch_semantic_scholar_papers():
 def fetch_semantic_scholar_by_doi(doi):
     url = (
         f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}"
-        "?fields=title,year,publicationDate,citationCount,authors"
+        "?fields=title,year,publicationDate,citationCount,authors,journal,venue"
     )
     try:
         p = fetch_json(url)
@@ -86,6 +96,7 @@ def fetch_semantic_scholar_by_doi(doi):
         "authors": [a.get("name", "") for a in (p.get("authors") or [])],
         "publication_date": p.get("publicationDate") or (str(p["year"]) if p.get("year") else ""),
         "citation_count": p.get("citationCount") or 0,
+        "journal": journal_name(p),
     }
 
 
@@ -169,12 +180,14 @@ def fetch_crossref_basic_entry(doi):
         .get("date-parts", [[]])[0]
     )
     publication_date = "-".join(f"{p:02d}" if i else str(p) for i, p in enumerate(date_parts))
+    journal = (work.get("container-title") or [""])[0]
     return {
         "doi": f"https://doi.org/{doi}",
         "title": title,
         "authors": authors,
         "publication_date": publication_date,
         "citation_count": 0,
+        "journal": journal,
     }
 
 
@@ -211,6 +224,11 @@ def sort_key(entry):
 
 
 def normalize_title(title):
+    # Some Semantic Scholar titles carry raw HTML tags (e.g. "<i>Bombyx
+    # mori</i>"); the letters inside a tag name (the "i" in "<i>") are
+    # alphanumeric and would otherwise survive the filter below, making an
+    # HTML-tagged title fail to match its clean sibling.
+    title = re.sub(r"<[^>]+>", "", title)
     return "".join(ch.lower() for ch in title if ch.isalnum())
 
 
@@ -260,10 +278,10 @@ def main():
     print(f"  -> {len(missing)} not already covered by Semantic Scholar", file=sys.stderr)
 
     for w in missing:
-        enriched = fetch_semantic_scholar_by_doi(w["doi"])
+        enriched = fetch_semantic_scholar_by_doi(w["doi"]) or fetch_crossref_basic_entry(w["doi"])
         if enriched:
             by_doi[w["doi"]] = enriched
-            print(f"  enriched via Semantic Scholar: {w['title'][:70]}", file=sys.stderr)
+            print(f"  enriched: {w['title'][:70]}", file=sys.stderr)
         else:
             by_doi[w["doi"]] = {
                 "doi": f"https://doi.org/{w['doi']}",
@@ -271,8 +289,9 @@ def main():
                 "authors": [],
                 "publication_date": str(w["publication_date"]),
                 "citation_count": 0,
+                "journal": "",
             }
-            print(f"  added from ORCID only (not yet indexed): {w['title'][:70]}", file=sys.stderr)
+            print(f"  added from ORCID only (not yet indexed anywhere): {w['title'][:70]}", file=sys.stderr)
 
     print("Checking preprint status via Crossref ...", file=sys.stderr)
     for doi, e in by_doi.items():
