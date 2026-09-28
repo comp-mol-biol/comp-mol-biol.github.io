@@ -22,6 +22,19 @@
     "is_preprint": true
   },
   {
+    "doi": "https://doi.org/10.1103/wk2j-3bz9",
+    "title": "Active transport as a mechanism of microphase selection in biomolecular condensates",
+    "authors": [
+      "Le Qiao",
+      "D. A. Vega",
+      "Friederike Schmid"
+    ],
+    "publication_date": "2026-08-27",
+    "citation_count": 0,
+    "journal": "Physical Review Research",
+    "is_preprint": false
+  },
+  {
     "doi": "https://doi.org/10.1101/2024.08.17.608427",
     "title": "Biochemical communication with noisy feedback under energy constraints",
     "authors": [
@@ -135,20 +148,6 @@
     "citation_count": 0,
     "journal": "bioRxiv",
     "is_preprint": true
-  },
-  {
-    "doi": "https://doi.org/10.1103/wk2j-3bz9",
-    "title": "Active transport as a mechanism of microphase selection in biomolecular condensates",
-    "authors": [
-      "Le Qiao",
-      "Peter Gispert",
-      "L. Stelzl",
-      "Friederike Schmid"
-    ],
-    "publication_date": "2026-04-09",
-    "citation_count": 1,
-    "journal": "Physical Review Research",
-    "is_preprint": false
   },
   {
     "doi": "https://doi.org/10.64898/2026.03.30.715404",
@@ -587,7 +586,7 @@
       "D. Dormann"
     ],
     "publication_date": "2021-04-30",
-    "citation_count": 177,
+    "citation_count": 181,
     "journal": "The EMBO Journal",
     "is_preprint": false
   },
