@@ -202,11 +202,12 @@ I use molecular dynamics simulations and machine learning-based contact analysis
     </tr>
     <tr>
       <td class="member-table__person">
-        <img src="/images/profile.png" alt="Emanuele Zippo" width="200"/><br/>
+        <img src="/images/emanuele.png" alt="Emanuele Zippo" width="200"/><br/>
         <strong>Emanuele Zippo</strong>
       </td>
-      <td class="member-table__interest"><!-- TODO: short research interest --></td>
-      <td><!-- TODO: <a href="https://github.com/USERNAME">GitHub</a> --></td>
+      <td class="member-table__interest">I use coarse-grained molecular dynamics to study how nonequilibrium phosphorylation–dephosphorylation reactions and enzyme localization couple molecular interactions to the phase separation and dynamics of TDP-43 condensates.</td>
+      <td><a href="https://www.linkedin.com/in/emanuele-zippo-98b79462?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a><br/>
+      <a href="https://github.com/ezippo/">Github</a></td>
       <td class="member-table__contact">
         <a href="mailto:zippoema@uni-mainz.de">zippoema@uni-mainz.de</a><br/>
         Johannes-von-Müller-Weg 6<br/>
