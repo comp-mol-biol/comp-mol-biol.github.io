@@ -22,19 +22,6 @@
     "is_preprint": true
   },
   {
-    "doi": "https://doi.org/10.1103/wk2j-3bz9",
-    "title": "Active transport as a mechanism of microphase selection in biomolecular condensates",
-    "authors": [
-      "Le Qiao",
-      "D. A. Vega",
-      "Friederike Schmid"
-    ],
-    "publication_date": "2026-08-27",
-    "citation_count": 0,
-    "journal": "Physical Review Research",
-    "is_preprint": false
-  },
-  {
     "doi": "https://doi.org/10.1101/2024.08.17.608427",
     "title": "Biochemical communication with noisy feedback under energy constraints",
     "authors": [
@@ -131,8 +118,8 @@
     "is_preprint": true
   },
   {
-    "doi": "https://doi.org/10.64898/2026.04.07.716875",
-    "title": "Programmable DNA Protonuclei Reveal Environmental Context on Protein Phase Separation",
+    "doi": "https://doi.org/10.1038/s41467-026-78144-1",
+    "title": "Programmable DNA protonuclei reveal environmental context on protein phase separation",
     "authors": [
       "J. Fritzen",
       "Avik Samanta",
@@ -146,8 +133,22 @@
     ],
     "publication_date": "2026-05-08",
     "citation_count": 0,
-    "journal": "bioRxiv",
-    "is_preprint": true
+    "journal": "Nature Communications",
+    "is_preprint": false
+  },
+  {
+    "doi": "https://doi.org/10.1103/wk2j-3bz9",
+    "title": "Active transport as a mechanism of microphase selection in biomolecular condensates",
+    "authors": [
+      "Le Qiao",
+      "Peter Gispert",
+      "L. Stelzl",
+      "Friederike Schmid"
+    ],
+    "publication_date": "2026-04-09",
+    "citation_count": 1,
+    "journal": "Physical Review Research",
+    "is_preprint": false
   },
   {
     "doi": "https://doi.org/10.64898/2026.03.30.715404",
@@ -479,7 +480,7 @@
       "S. Trowitzsch"
     ],
     "publication_date": "2022-09-03",
-    "citation_count": 24,
+    "citation_count": 25,
     "journal": "bioRxiv",
     "is_preprint": false
   },
@@ -586,7 +587,7 @@
       "D. Dormann"
     ],
     "publication_date": "2021-04-30",
-    "citation_count": 181,
+    "citation_count": 182,
     "journal": "The EMBO Journal",
     "is_preprint": false
   },
@@ -600,7 +601,7 @@
       "G. Hummer"
     ],
     "publication_date": "2020-10-10",
-    "citation_count": 184,
+    "citation_count": 186,
     "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
