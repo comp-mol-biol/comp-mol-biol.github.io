@@ -1,5 +1,25 @@
 [
   {
+    "doi": "https://doi.org/10.64898/2026.06.03.729912",
+    "title": "Multi-Domain Interplay Controls Full-Length TDP-43 Phase Separation and Condensate Dynamics",
+    "authors": [
+      "Xiao-Fei Ping",
+      "Rodrique G. M. Badr",
+      "S. Hutten",
+      "Xin-Xiang Chen",
+      "Lucia Baltz",
+      "Mahesh C. Yadav",
+      "Jana Höppner",
+      "Friederike Schmid",
+      "Dorothee Dormann",
+      "L. Stelzl"
+    ],
+    "publication_date": "2026-10-06",
+    "citation_count": 0,
+    "journal": "bioRxiv",
+    "is_preprint": true
+  },
+  {
     "doi": "https://doi.org/10.64898/2026.04.06.716630",
     "title": "Phase separation behavior of TDP-43 governs its protein interactome and regulation of alternative splicing",
     "authors": [
@@ -35,31 +55,11 @@
     "is_preprint": true
   },
   {
-    "doi": "https://doi.org/10.64898/2026.06.03.729912",
-    "title": "Multi-Domain Interplay Controls Full-Length TDP-43 Phase Separation and Condensate Dynamics",
-    "authors": [
-      "Xiao-Fei Ping",
-      "Rodrique G M Badr",
-      "S. Hutten",
-      "Xinxiang Chen",
-      "Lucia Baltz",
-      "Mahesh C. Yadav",
-      "Jana Höppner",
-      "Friederike Schmid",
-      "Dorothee Dormann",
-      "L. Stelzl"
-    ],
-    "publication_date": "2026-07-01",
-    "citation_count": 0,
-    "journal": "bioRxiv",
-    "is_preprint": true
-  },
-  {
     "doi": "https://doi.org/10.64898/2026.06.06.730477",
     "title": "Active Learning–Guided Peptide Design for Modulating Condensate Properties upon Recruitment",
     "authors": [
       "K. Gaurav",
-      "Rodrique G M Badr",
+      "Rodrique G. M. Badr",
       "Arya Changiarath",
       "Vasileios A. Xenidis",
       "L. Stelzl"
@@ -183,7 +183,7 @@
       "R. Ketting"
     ],
     "publication_date": "2025-12-21",
-    "citation_count": 0,
+    "citation_count": 1,
     "journal": "bioRxiv",
     "is_preprint": true
   },
@@ -212,7 +212,7 @@
       "L. Stelzl"
     ],
     "publication_date": "2025-03-07",
-    "citation_count": 16,
+    "citation_count": 17,
     "journal": "Current opinion in structural biology",
     "is_preprint": false
   },
@@ -226,7 +226,7 @@
       "Arya Changiarath",
       "Sonya M. Hanson",
       "Sebastian Falk",
-      "René F. Ketting",
+      "R. Ketting",
       "L. Stelzl"
     ],
     "publication_date": "2025-02-25",
@@ -398,7 +398,7 @@
       "M. Siomi",
       "L. Stelzl",
       "Katja Luck",
-      "René F. Ketting"
+      "R. Ketting"
     ],
     "publication_date": "2023-04-03",
     "citation_count": 8,
@@ -826,7 +826,7 @@
       "B. Berks"
     ],
     "publication_date": "2015-12-11",
-    "citation_count": 30,
+    "citation_count": 31,
     "journal": "Proceedings of the National Academy of Sciences",
     "is_preprint": false
   },
@@ -859,7 +859,7 @@
       "O. Beckstein"
     ],
     "publication_date": "2014-02-06",
-    "citation_count": 71,
+    "citation_count": 72,
     "journal": "Journal of Molecular Biology",
     "is_preprint": false
   },
