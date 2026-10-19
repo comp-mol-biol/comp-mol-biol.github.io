@@ -338,7 +338,7 @@
       "Sabine Pütz",
       "Steven Joop Roeters",
       "J. F. Rudzinski",
-      "N. Fawzi",
+      "N. L. Fawzi",
       "Martin Girard",
       "S. Parekh",
       "Johannes Hunger"
@@ -391,7 +391,7 @@
       "C. Y. Lee",
       "M. Möckel",
       "S. Ruegenberg",
-      "Antonio M. de Jesus Domingues",
+      "A. M. de Jesus Domingues",
       "Shéraz Sadouki",
       "Rossana Piccinno",
       "Tetsutaro Sumiyoshi",
@@ -480,7 +480,7 @@
       "S. Trowitzsch"
     ],
     "publication_date": "2022-09-03",
-    "citation_count": 25,
+    "citation_count": 26,
     "journal": "bioRxiv",
     "is_preprint": false
   },
@@ -606,6 +606,24 @@
     "is_preprint": false
   },
   {
+    "doi": "https://doi.org/10.7554/elife.54661",
+    "title": "Local frustration determines loop opening during the catalytic cycle of an oxidoreductase",
+    "authors": [
+      "L. Stelzl",
+      "D. Mavridou",
+      "E. Saridakis",
+      "Diego Gonzalez",
+      "Andrew J. Baldwin",
+      "S. J. Ferguson",
+      "M. Sansom",
+      "C. Redfield"
+    ],
+    "publication_date": "2020-06-22",
+    "citation_count": 13,
+    "journal": "eLife",
+    "is_preprint": false
+  },
+  {
     "doi": "https://doi.org/10.1002/anie.202009800",
     "title": "Compaction of RNA Duplexes in the Cell",
     "authors": [
@@ -652,24 +670,6 @@
     "publication_date": "2019-11-28",
     "citation_count": 28,
     "journal": "Nucleic Acids Research",
-    "is_preprint": false
-  },
-  {
-    "doi": "https://doi.org/10.7554/elife.54661",
-    "title": "Local frustration determines loop opening during the catalytic cycle of an oxidoreductase",
-    "authors": [
-      "Lukas L Stelzl",
-      "D. Mavridou",
-      "E. Saridakis",
-      "Diego Gonzalez",
-      "Andrew J. Baldwin",
-      "S. J. Ferguson",
-      "M. Sansom",
-      "C. Redfield"
-    ],
-    "publication_date": "2019-06-30",
-    "citation_count": 13,
-    "journal": "eLife",
     "is_preprint": false
   },
   {
@@ -733,7 +733,7 @@
       "A. M. Bowen",
       "N. Erlenbach",
       "P. van Os",
-      "L. S. Stelzl",
+      "L. Stelzl",
       "S. Sigurdsson",
       "T. Prisner"
     ],
@@ -752,7 +752,7 @@
       "G. Hummer"
     ],
     "publication_date": "2018-09-13",
-    "citation_count": 22,
+    "citation_count": 23,
     "journal": "The journal of physical chemistry letters",
     "is_preprint": false
   },
@@ -854,12 +854,12 @@
     "title": "Flexible Gates Generate Occluded Intermediates in the Transport Cycle of LacY",
     "authors": [
       "Lukas S. Stelzl",
-      "P. Fowler",
-      "M. Sansom",
-      "O. Beckstein"
+      "Philip W. Fowler",
+      "Mark S.P. Sansom",
+      "Oliver Beckstein"
     ],
-    "publication_date": "2014-02-06",
-    "citation_count": 72,
+    "publication_date": "2014-02",
+    "citation_count": 0,
     "journal": "Journal of Molecular Biology",
     "is_preprint": false
   },
@@ -867,14 +867,14 @@
     "doi": "https://doi.org/10.1007/s12104-011-9347-9",
     "title": "1H, 13C and 15N resonance assignments for the oxidized and reduced states of the N-terminal domain of DsbD from Escherichia coli",
     "authors": [
-      "D. Mavridou",
+      "Despoina A. I. Mavridou",
       "Lukas S. Stelzl",
-      "S. J. Ferguson",
-      "C. Redfield"
+      "Stuart J. Ferguson",
+      "Christina Redfield"
     ],
     "publication_date": "2011-11-30",
-    "citation_count": 4,
-    "journal": "Biomolecular Nmr Assignments",
+    "citation_count": 0,
+    "journal": "Biomolecular NMR Assignments",
     "is_preprint": false
   }
 ]
