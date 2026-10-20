@@ -85,12 +85,24 @@
   }
 
   &__interest {
-    max-width: 260px;
+    max-width: 420px;
+    text-align: justify;
+    hyphens: auto;
   }
 
   &__contact {
     white-space: nowrap;
     width: 1%;
+
+    // hover-only underline, same pattern as the sidebar's social links,
+    // overriding the permanent `.page__content a { text-decoration: underline }`
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   td {
@@ -143,7 +155,6 @@
       margin-top: 0;
       margin-bottom: 0.4em;
       color: $brand-blue;
-      text-decoration: underline;
     }
 
     p {
@@ -198,26 +209,12 @@
   }
 }
 
-// looping simulation clip in the sidebar avatar slot
-.author__avatar-video {
-  max-width: 175px;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 50%;
-  vertical-align: middle;
-
-  @include breakpoint($large) {
-    padding: 5px;
-    border: 1px solid $border-color;
-  }
-}
-
 // big centered welcome headline on the home page
 .page__content .home-welcome {
   margin-top: 0;
   text-align: center;
   font-size: $type-size-3 * 2;
+  font-weight: 500;
 }
 
 // funder logos on the home page (under the Funding heading)

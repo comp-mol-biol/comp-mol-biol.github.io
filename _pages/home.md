@@ -79,9 +79,6 @@ The Stelzl Lab is a computational biophysics research group at the [Institute of
 </div>
 
 ## Funding
-
-Our research is supported by:
-
 <div class="funding-logos">
   <a href="https://www.dfg.de/de" target="_blank" rel="noopener" title="Deutsche Forschungsgemeinschaft (DFG)">
     <img src="/images/dfg_cropped.jpeg" alt="Deutsche Forschungsgemeinschaft (DFG)" loading="lazy">

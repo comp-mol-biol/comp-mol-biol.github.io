@@ -7,8 +7,7 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">
-            <span class="site-title">{{ site.title }}</span>
-            {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+            <img src="{{ base_path }}/images/logo_final.svg" alt="{{ site.title }}" class="site-logo">
           </a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}

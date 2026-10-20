@@ -54,15 +54,10 @@
       line-height: 1.1;
     }
 
-    .site-title {
+    .site-logo {
       display: block;
-    }
-
-    .site-subtitle {
-      display: block;
-      font-weight: 400;
-      font-size: 0.7em;
-      color: $dark-gray;
+      height: 64px;
+      width: auto;
     }
   }
 }
