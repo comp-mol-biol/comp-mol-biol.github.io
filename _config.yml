@@ -7,11 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Biomolecular Simulation"
-subtitle                 : "Computational Molecular Biology"
+title                    : "Stelzl Lab"
 title_separator          : "-"
-name                     : &name "Biomolecular Simulation"
-description              : &description "personal description"
+name                     : &name "Stelzl Lab"
+description              : &description "Biomolecular Simulation research in computational molecular biology, Johannes Gutenberg University Mainz."
 url                      : https://comp-mol-biol.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "github.com/comp-mol-biol"
@@ -76,7 +75,6 @@ analytics:
 # Site Author
 author:
   name             : "Stelzl Lab"
-  avatar           : "stelzl_logo-v5_small.png"
   bio              :
   location         : "Mainz, Germany"
   location_url     : "/contact/"
