@@ -7,7 +7,6 @@
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
@@ -15,8 +14,8 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
-          {% if author.location_url %}<a href="{{ author.location_url }}">{{ author.location }}</a>{% else %}{{ author.location }}{% endif %}
+        <li>
+          {% if author.location_url %}<a href="{{ author.location_url }}"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</a>{% else %}<i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}{% endif %}
         </li>
       {% endif %}
       {% if author.employer %}

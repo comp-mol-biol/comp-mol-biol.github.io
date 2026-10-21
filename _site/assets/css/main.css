@@ -9483,23 +9483,102 @@ img.mfp-img {
 .group-leader__info > :first-child {
   margin-top: 0;
 }
-
-.member-table__person {
-  text-align: center;
-  width: 220px;
-  vertical-align: top;
-}
-.member-table__person img {
+.group-leader__info h4 {
   margin-bottom: 0.5em;
 }
+
+.timeline {
+  margin: 0 0 1.5em;
+}
+.timeline dt {
+  margin-top: 1em;
+  color: #143962;
+  font-weight: 700;
+}
+.timeline dt:first-child {
+  margin-top: 0;
+}
+.timeline dd {
+  margin: 0.2em 0 0;
+}
+
+.member-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.member-card {
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+}
+.member-card__summary {
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+  padding: 1em 1.25em;
+  cursor: pointer;
+  list-style: none;
+}
+.member-card__summary::-webkit-details-marker {
+  display: none;
+}
+.member-card__summary::after {
+  content: "\25B8";
+  margin-left: auto;
+  flex-shrink: 0;
+  color: #434343;
+  font-size: 1.2em;
+  transition: transform 0.2s ease;
+}
+.member-card[open] .member-card__summary::after {
+  transform: rotate(90deg);
+}
+.member-card__photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.member-card__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.member-card__name {
+  display: block;
+  margin-bottom: 0.25em;
+}
+.member-card__interest {
+  margin: 0;
+  text-align: justify;
+  hyphens: auto;
+  font-size: 0.75em;
+}
+.member-card__contact {
+  margin: 0 1.25em 1.25em;
+  padding-top: 1em;
+  padding-left: calc(96px + 1.25em);
+  border-top: 1px solid #f1f1f1;
+}
+.member-card__contact a {
+  text-decoration: none;
+}
+.member-card__contact a:hover {
+  text-decoration: underline;
+}
+
 .member-table__interest {
   max-width: 420px;
   text-align: justify;
   hyphens: auto;
+  vertical-align: middle;
 }
 .member-table__contact {
   white-space: nowrap;
   width: 1%;
+  vertical-align: middle;
 }
 .member-table__contact a {
   text-decoration: none;
@@ -9507,8 +9586,18 @@ img.mfp-img {
 .member-table__contact a:hover {
   text-decoration: underline;
 }
-.member-table td {
-  vertical-align: top;
+.member-table.member-table--plain {
+  border: none;
+}
+.member-table.member-table--plain thead {
+  display: none;
+}
+.member-table.member-table--plain td {
+  border: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+.member-table.member-table--plain tr:last-child td {
+  border-bottom: none;
 }
 
 .map-embed {
