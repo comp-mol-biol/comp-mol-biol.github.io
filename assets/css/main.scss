@@ -69,30 +69,128 @@
     > :first-child {
       margin-top: 0;
     }
-  }
-}
 
-// member table: image stacked above the name in one cell
-.member-table {
-  &__person {
-    text-align: center;
-    width: 220px;
-    vertical-align: top;
-
-    img {
+    h4 {
       margin-bottom: 0.5em;
     }
   }
+}
 
+// CV-style entries (Group Leader's Positions held / Education): a bold
+// year label followed by its description, with a clear gap before the
+// next entry — replaces a wall of *italic:* text separated by <br/>
+.timeline {
+  margin: 0 0 1.5em;
+
+  dt {
+    margin-top: 1em;
+    color: $brand-blue;
+    font-weight: 700;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  dd {
+    margin: 0.2em 0 0;
+  }
+}
+
+// member card: circular photo + research interest always visible, contact
+// info revealed by clicking the card (native <details>/<summary>, no JS)
+.member-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.member-card {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+
+  &__summary {
+    display: flex;
+    align-items: center;
+    gap: 1.25em;
+    padding: 1em 1.25em;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: "\25B8"; // ▸, rotates to ▾ when open
+      margin-left: auto;
+      flex-shrink: 0;
+      color: $dark-gray;
+      font-size: 1.2em;
+      transition: transform 0.2s ease;
+    }
+  }
+
+  &[open] &__summary::after {
+    transform: rotate(90deg);
+  }
+
+  &__photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 0.25em;
+  }
+
+  &__interest {
+    margin: 0;
+    text-align: justify;
+    hyphens: auto;
+    font-size: $type-size-6;
+  }
+
+  &__contact {
+    margin: 0 1.25em 1.25em;
+    padding-top: 1em;
+    padding-left: calc(96px + 1.25em);
+    border-top: 1px solid $border-color;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// member table: image stacked above the name in one cell (Master/Bachelor/
+// Research Assistants/Alumni, who don't have photo cards)
+.member-table {
   &__interest {
     max-width: 420px;
     text-align: justify;
     hyphens: auto;
+    vertical-align: middle;
   }
 
   &__contact {
     white-space: nowrap;
     width: 1%;
+    vertical-align: middle;
 
     // hover-only underline, same pattern as the sidebar's social links,
     // overriding the permanent `.page__content a { text-decoration: underline }`
@@ -105,8 +203,23 @@
     }
   }
 
-  td {
-    vertical-align: top;
+  // plain list style for the photo-less sections (Master/Bachelor/Research
+  // Assistants/Alumni): no header row, no grid lines, just rows of text
+  &.member-table--plain {
+    border: none;
+
+    thead {
+      display: none;
+    }
+
+    td {
+      border: none;
+      border-bottom: 1px solid $border-color;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
   }
 }
 
