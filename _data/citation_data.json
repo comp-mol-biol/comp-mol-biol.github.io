@@ -102,7 +102,7 @@
     "authors": [
       "S. Hutten",
       "Emre Pekbilir",
-      "Benjamin Bourgeois",
+      "Benjamin M. R. Bourgeois",
       "Xiao-Fei Ping",
       "C. Rickert",
       "Nele S. Kuhr",
@@ -132,7 +132,7 @@
       "Andreas Walther"
     ],
     "publication_date": "2026-05-08",
-    "citation_count": 0,
+    "citation_count": 1,
     "journal": "Nature Communications",
     "is_preprint": false
   },
@@ -146,7 +146,7 @@
       "Friederike Schmid"
     ],
     "publication_date": "2026-04-09",
-    "citation_count": 1,
+    "citation_count": 2,
     "journal": "Physical Review Research",
     "is_preprint": false
   },
@@ -212,7 +212,7 @@
       "L. Stelzl"
     ],
     "publication_date": "2025-03-07",
-    "citation_count": 17,
+    "citation_count": 18,
     "journal": "Current opinion in structural biology",
     "is_preprint": false
   },
@@ -480,7 +480,7 @@
       "S. Trowitzsch"
     ],
     "publication_date": "2022-09-03",
-    "citation_count": 26,
+    "citation_count": 27,
     "journal": "bioRxiv",
     "is_preprint": false
   },
@@ -601,7 +601,7 @@
       "G. Hummer"
     ],
     "publication_date": "2020-10-10",
-    "citation_count": 186,
+    "citation_count": 188,
     "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
@@ -673,6 +673,24 @@
     "is_preprint": false
   },
   {
+    "doi": "https://doi.org/10.1101/686949",
+    "title": "Local frustration determines loop opening in protein-protein association",
+    "authors": [
+      "L. Stelzl",
+      "D. Mavridou",
+      "E. Saridakis",
+      "Diego Gonzalez",
+      "Andrew J. Baldwin",
+      "S. J. Ferguson",
+      "M. Sansom",
+      "C. Redfield"
+    ],
+    "publication_date": "2019-06-30",
+    "citation_count": 0,
+    "journal": "bioRxiv",
+    "is_preprint": true
+  },
+  {
     "doi": "https://doi.org/10.1021/acs.jctc.8b01231",
     "title": "Efficient Ensemble Refinement by Reweighting",
     "authors": [
@@ -684,7 +702,7 @@
       "G. Hummer"
     ],
     "publication_date": "2018-12-18",
-    "citation_count": 94,
+    "citation_count": 95,
     "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
@@ -783,7 +801,7 @@
       "G. Hummer"
     ],
     "publication_date": "2017-11-09",
-    "citation_count": 62,
+    "citation_count": 65,
     "journal": "Journal of chemical theory and computation",
     "is_preprint": false
   },
@@ -854,12 +872,12 @@
     "title": "Flexible Gates Generate Occluded Intermediates in the Transport Cycle of LacY",
     "authors": [
       "Lukas S. Stelzl",
-      "Philip W. Fowler",
-      "Mark S.P. Sansom",
-      "Oliver Beckstein"
+      "P. Fowler",
+      "M. Sansom",
+      "O. Beckstein"
     ],
-    "publication_date": "2014-02",
-    "citation_count": 0,
+    "publication_date": "2014-02-06",
+    "citation_count": 73,
     "journal": "Journal of Molecular Biology",
     "is_preprint": false
   },
@@ -867,14 +885,14 @@
     "doi": "https://doi.org/10.1007/s12104-011-9347-9",
     "title": "1H, 13C and 15N resonance assignments for the oxidized and reduced states of the N-terminal domain of DsbD from Escherichia coli",
     "authors": [
-      "Despoina A. I. Mavridou",
+      "D. Mavridou",
       "Lukas S. Stelzl",
-      "Stuart J. Ferguson",
-      "Christina Redfield"
+      "S. J. Ferguson",
+      "C. Redfield"
     ],
     "publication_date": "2011-11-30",
-    "citation_count": 0,
-    "journal": "Biomolecular NMR Assignments",
+    "citation_count": 4,
+    "journal": "Biomolecular Nmr Assignments",
     "is_preprint": false
   }
 ]
