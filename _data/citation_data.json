@@ -11,7 +11,7 @@
       "Mahesh C. Yadav",
       "Jana Höppner",
       "Friederike Schmid",
-      "Dorothee Dormann",
+      "D. Dormann",
       "L. Stelzl"
     ],
     "publication_date": "2026-10-06",
@@ -34,7 +34,7 @@
       "Martina Hallegger",
       "Carla Schmidt",
       "L. Stelzl",
-      "Dorothee Dormann"
+      "D. Dormann"
     ],
     "publication_date": "2026-08-28",
     "citation_count": 0,
@@ -86,7 +86,7 @@
       "M. Möckel",
       "S. Morsbach",
       "Friederike Schmid",
-      "Dorothee Dormann",
+      "D. Dormann",
       "L. Stelzl",
       "Martin Girard",
       "E. A. Lemke"
@@ -110,7 +110,7 @@
       "Simone Mosna",
       "T. Madl",
       "L. Stelzl",
-      "Dorothee Dormann"
+      "D. Dormann"
     ],
     "publication_date": "2026-06-09",
     "citation_count": 0,
@@ -128,11 +128,11 @@
       "Erin L. Sternburg",
       "L. Stelzl",
       "J. J. Michels",
-      "Dorothee Dormann",
+      "D. Dormann",
       "Andreas Walther"
     ],
     "publication_date": "2026-05-08",
-    "citation_count": 1,
+    "citation_count": 2,
     "journal": "Nature Communications",
     "is_preprint": false
   },
@@ -212,7 +212,7 @@
       "L. Stelzl"
     ],
     "publication_date": "2025-03-07",
-    "citation_count": 18,
+    "citation_count": 19,
     "journal": "Current opinion in structural biology",
     "is_preprint": false
   },
@@ -268,12 +268,12 @@
     "title": "Molecular simulations of enzymatic phosphorylation of disordered proteins and their condensates",
     "authors": [
       "Emanuele Zippo",
-      "Dorothee Dormann",
+      "D. Dormann",
       "T. Speck",
       "L. Stelzl"
     ],
     "publication_date": "2024-09-14",
-    "citation_count": 25,
+    "citation_count": 26,
     "journal": "Nature Communications",
     "is_preprint": false
   },
@@ -302,7 +302,7 @@
     "authors": [
       "Maximilian Gauger",
       "M. Heinz",
-      "Anna-Lena J. Halbritter",
+      "A. L. Halbritter",
       "L. Stelzl",
       "N. Erlenbach",
       "Gerhard Hummer",
@@ -344,7 +344,7 @@
       "Johannes Hunger"
     ],
     "publication_date": "2023-12-06",
-    "citation_count": 15,
+    "citation_count": 16,
     "journal": "The Journal of Physical Chemistry Letters",
     "is_preprint": false
   },
@@ -357,7 +357,7 @@
       "Anton A. Polyansky",
       "Arya Changiarath",
       "M. Boehning",
-      "Milana Mirkovic",
+      "Milan Mirković",
       "J. Walshe",
       "Lisa M. Pietrek",
       "P. Cramer",
@@ -366,7 +366,7 @@
       "M. Zweckstetter"
     ],
     "publication_date": "2023-09-25",
-    "citation_count": 43,
+    "citation_count": 45,
     "journal": "Nature Communications",
     "is_preprint": false
   },
@@ -434,7 +434,7 @@
       "Arash Nikoubashman"
     ],
     "publication_date": "2023-02-01",
-    "citation_count": 2,
+    "citation_count": 3,
     "journal": "Biophysical journal",
     "is_preprint": false
   },
@@ -496,7 +496,7 @@
       "Pilar Cossio"
     ],
     "publication_date": "2022-08-08",
-    "citation_count": 28,
+    "citation_count": 29,
     "journal": "The journal of physical chemistry letters",
     "is_preprint": false
   },
@@ -514,7 +514,7 @@
       "Sebastian A. Wagner"
     ],
     "publication_date": "2022-08-01",
-    "citation_count": 11,
+    "citation_count": 12,
     "journal": "iScience",
     "is_preprint": false
   },
@@ -549,7 +549,7 @@
       "G. Hummer"
     ],
     "publication_date": "2021-11-24",
-    "citation_count": 65,
+    "citation_count": 66,
     "journal": "JACS Au",
     "is_preprint": false
   },
@@ -587,7 +587,7 @@
       "D. Dormann"
     ],
     "publication_date": "2021-04-30",
-    "citation_count": 182,
+    "citation_count": 183,
     "journal": "The EMBO Journal",
     "is_preprint": false
   },
@@ -596,12 +596,12 @@
     "title": "Simulation of FUS Protein Condensates with an Adapted Coarse-Grained Model",
     "authors": [
       "Zakarya Benayad",
-      "Sören von Bülow",
+      "S. von Bülow",
       "L. Stelzl",
       "G. Hummer"
     ],
     "publication_date": "2020-10-10",
-    "citation_count": 188,
+    "citation_count": 189,
     "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
@@ -628,7 +628,7 @@
     "title": "Compaction of RNA Duplexes in the Cell",
     "authors": [
       "Alberto Collauto",
-      "Sören von Bülow",
+      "S. von Bülow",
       "D. Gophane",
       "S. Saha",
       "L. Stelzl",
@@ -673,24 +673,6 @@
     "is_preprint": false
   },
   {
-    "doi": "https://doi.org/10.1101/686949",
-    "title": "Local frustration determines loop opening in protein-protein association",
-    "authors": [
-      "L. Stelzl",
-      "D. Mavridou",
-      "E. Saridakis",
-      "Diego Gonzalez",
-      "Andrew J. Baldwin",
-      "S. J. Ferguson",
-      "M. Sansom",
-      "C. Redfield"
-    ],
-    "publication_date": "2019-06-30",
-    "citation_count": 0,
-    "journal": "bioRxiv",
-    "is_preprint": true
-  },
-  {
     "doi": "https://doi.org/10.1021/acs.jctc.8b01231",
     "title": "Efficient Ensemble Refinement by Reweighting",
     "authors": [
@@ -702,7 +684,7 @@
       "G. Hummer"
     ],
     "publication_date": "2018-12-18",
-    "citation_count": 95,
+    "citation_count": 96,
     "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
