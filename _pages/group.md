@@ -255,7 +255,7 @@ Post-Translationally Modified Protein Condensates</td>
     </tr>
     <tr>
       <td><strong>Antonia Preuß</strong></td>
-      <td class="member-table__interest"><!-- TODO: thesis title --></td>
+      <td class="member-table__interest">Investigating potential importin interaction partners of the MAP kinase Hog1 in Magnaporthe oryzae using molecular dynamics simulations</td>
     </tr>
     <tr>
       <td><strong>Moxian Qian</strong></td>
