@@ -23,6 +23,31 @@ GitHub: <a href="https://github.com/comp-mol-biol"><i class="fab fa-fw fa-github
 
 ## How to find us
 
+<!-- START TEMPORARY NOTICE -->
+<div class="notice--warning" markdown="1">
+
+# Construction Work: Temporary Route to Our Lab
+
+**Due to ongoing construction work, direct access to our lab at Johannes-von-Müller-Weg 6 is currently restricted.** Starting from the ReWi / Mensa area (at the intersection of Johann-Joachim-Becher-Weg and Johannes-von-Müller-Weg), you can reach the lab using either of the two routes below:
+
+**Option 1: Indoor Route (via the 2nd Floor / IQCB Office)**
+
+1. From the ReWi / Mensa intersection, walk west along Johannes-von-Müller-Weg and enter the building at Johannes-von-Müller-Weg 6 (signed *Fachbereich 10 Biologie*).
+2. Go up to the second floor.
+3. Walk down the corridor past the IQCB office.
+4. Turn left and walk down the hallway towards the Baron / city center (Anselm-Franz-von-Bentzel-Weg).
+5. Take the stairs down at the end of the corridor.
+6. Walk straight through the teaching lab to enter our lab.
+
+**Option 2: Outdoor Route (via the Glasshouse Terrace)**
+
+1. Walk along Johannes-von-Müller-Weg past the main courtyard to the glasshouse at the western corner of the building.
+2. Step onto the terrace directly next to the glasshouse.
+3. Enter the lab directly from the terrace.
+
+</div>
+<!-- END TEMPORARY NOTICE -->
+
 <div class="map-embed">
   <iframe
     data-consent-src="https://www.google.com/maps?q=Johannes-von-M%C3%BCller-Weg%206,%2055128%20Mainz&z=16&output=embed"
