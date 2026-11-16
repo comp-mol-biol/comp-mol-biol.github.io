@@ -137,7 +137,7 @@
     "doi": "https://doi.org/10.1038/s41467-026-78144-1",
     "title": "Programmable DNA protonuclei reveal environmental context on protein phase separation",
     "authors": [
-      "J. Fritzen",
+      "Johann Fritzen",
       "Avik Samanta",
       "Nele S. Kuhr",
       "Antonia Preuß",
@@ -188,7 +188,7 @@
       "Ida Isolehto",
       "Lizaveta Pshanichnaya",
       "D. J. Páez-Moscoso",
-      "M. Mager",
+      "Maximilian Mager",
       "Ann-Sophie Seistrup",
       "Jan Schreier",
       "Svenja Hellmann",
@@ -407,7 +407,7 @@
       "C. Y. Lee",
       "M. Möckel",
       "S. Ruegenberg",
-      "A. M. de Jesus Domingues",
+      "António Miguel de Jesus Domingues",
       "Shéraz Sadouki",
       "Rossana Piccinno",
       "Tetsutaro Sumiyoshi",
@@ -463,7 +463,7 @@
       "G. Hummer"
     ],
     "publication_date": "2022-10-28",
-    "citation_count": 26,
+    "citation_count": 27,
     "journal": "Current opinion in structural biology",
     "is_preprint": false
   },
@@ -474,7 +474,7 @@
       "L. Stelzl",
       "Paraskevi Kritsiligkou",
       "A. R. Mehdipour",
-      "Andrew J. Baldwin",
+      "A. Baldwin",
       "S. J. Ferguson",
       "D. Mavridou",
       "M. Sansom",
@@ -530,7 +530,7 @@
       "Sebastian A. Wagner"
     ],
     "publication_date": "2022-08-01",
-    "citation_count": 12,
+    "citation_count": 13,
     "journal": "iScience",
     "is_preprint": false
   },
@@ -565,7 +565,7 @@
       "G. Hummer"
     ],
     "publication_date": "2021-11-24",
-    "citation_count": 67,
+    "citation_count": 68,
     "journal": "JACS Au",
     "is_preprint": false
   },
@@ -589,7 +589,7 @@
     "doi": "https://doi.org/10.15252/embj.2021108443",
     "title": "Disease‐linked TDP‐43 hyperphosphorylation suppresses TDP‐43 condensation and aggregation",
     "authors": [
-      "Lara A. Gruijs da Silva",
+      "Lara Gruijs da Silva",
       "F. Simonetti",
       "S. Hutten",
       "H. Riemenschneider",
@@ -603,7 +603,7 @@
       "D. Dormann"
     ],
     "publication_date": "2021-04-30",
-    "citation_count": 185,
+    "citation_count": 186,
     "journal": "The EMBO Journal",
     "is_preprint": false
   },
@@ -612,12 +612,12 @@
     "title": "Simulation of FUS Protein Condensates with an Adapted Coarse-Grained Model",
     "authors": [
       "Zakarya Benayad",
-      "S. von Bülow",
+      "Sören von Bülow",
       "L. Stelzl",
       "G. Hummer"
     ],
     "publication_date": "2020-10-10",
-    "citation_count": 189,
+    "citation_count": 190,
     "journal": "Journal of Chemical Theory and Computation",
     "is_preprint": false
   },
@@ -629,7 +629,7 @@
       "D. Mavridou",
       "E. Saridakis",
       "Diego Gonzalez",
-      "Andrew J. Baldwin",
+      "A. Baldwin",
       "S. J. Ferguson",
       "M. Sansom",
       "C. Redfield"
@@ -644,7 +644,7 @@
     "title": "Compaction of RNA Duplexes in the Cell",
     "authors": [
       "Alberto Collauto",
-      "S. von Bülow",
+      "Sören von Bülow",
       "D. Gophane",
       "S. Saha",
       "L. Stelzl",
@@ -666,7 +666,7 @@
       "Gerhard Hummer"
     ],
     "publication_date": "2019-12-06",
-    "citation_count": 74,
+    "citation_count": 75,
     "journal": "Journal of Chemical Theory\nand Computation",
     "is_preprint": false
   },
@@ -710,7 +710,7 @@
     "authors": [
       "Patrick Seyfried",
       "M. Heinz",
-      "György Pinter",
+      "György Pintér",
       "Dean-Paulos Klötzner",
       "Yvonne Becker",
       "M. Bolte",
